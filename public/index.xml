@@ -1,0 +1,10 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Antonio Anna Mele</title>
+        <link>https://antonioannamele.com/</link>
+        <description>Antonio Anna Mele&#39;s personal website</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>antoniomele.p@gmail.com (Antonio Anna Mele)</managingEditor>
+            <webMaster>antoniomele.p@gmail.com (Antonio Anna Mele)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+            <atom:link href="https://antonioannamele.com/index.xml" rel="self" type="application/rss+xml" />
+        </channel>
+</rss>
