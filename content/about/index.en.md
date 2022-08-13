@@ -8,10 +8,11 @@ lightgallery: true
 math:
   enable: true
 ---
-
+ 
 >
 > Click here for a detailed [**Curriculum Vitae CV**](/documents/CV_AntonioAnnaMele.pdf) [:(fas fa-file-download):](/documents/cv.pdf) .
 >
+>  Feel free to reach me by email [:(fas fa-envelope):](mailto:antoniomele.p@gmail.com).
 
 
 I am a PhD student in [Jens Eisert group](https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/index.html) at the Free University of Berlin.
