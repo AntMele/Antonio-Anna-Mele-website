@@ -10,7 +10,7 @@ math:
 ---
 
 >
-> Clicca qui per un [**Curriculum Vitae CV**](/documents/CV_AntonioAnnaMele.pdf) [:(fas fa-file-download):](/documents/cv.pdf) più dettagliato.
+> Clicca qui per un [**Curriculum Vitae CV**](/documents/CV_AntonioAnnaMele.pdf) più dettagliato.
 >
 > Inviami una e-mail [:(fas fa-envelope):](mailto:antoniomele.p@gmail.com).
 
