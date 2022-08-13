@@ -26,8 +26,8 @@ For a list of my publications, see my [Research webpage](/research) and my [Goog
 
 # Short CV:  
 * PhD student on _Quantum Information_, [Free University of Berlin](https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/index.html) (Germany), November 2021 - ongoing.
-* MSc in _Theoretical and Computational Physics_, Joint programme (UNITN-SISSA), [University of Trento](https://www.unitn.it/en) (Italy), [SISSA/ISAS - International School for Advanced Studies](https://www.sissa.it/) (Trieste, Italy), 2019-2021.
-* BSc in _Physics_, [University of Pisa](https://www.unipi.it/index.php/english) (Italy), 2016-2019.
+* MSc in _Theoretical and Computational Physics_, Joint programme (UNITN-SISSA), [University of Trento](https://www.unitn.it/en) (Italy), [SISSA/ISAS - International School for Advanced Studies](https://www.sissa.it/) (Trieste, Italy), 2019-2021. Maximum grade with Laude.
+* BSc in _Physics_, [University of Pisa](https://www.unipi.it/index.php/english) (Italy), 2016-2019. Maximum grade with Laude.
 
  
  
