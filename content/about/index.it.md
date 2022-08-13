@@ -12,7 +12,7 @@ math:
 >
 > Clicca qui per un [**Curriculum Vitae CV**](/documents/CV_AntonioAnnaMele.pdf) [:(fas fa-file-download):](/documents/cv.pdf) più dettagliato.
 >
-> Inviami una e-mail a antoniomele.p@gmail.com [:(fas fa-envelope):](mailto:antoniomele.p@gmail.com).
+> Inviami una e-mail [:(fas fa-envelope):](mailto:antoniomele.p@gmail.com).
 
 
 Sono uno studente di PhD nel [gruppo di Jens Eisert](https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/index.html) della Free University of Berlin.
