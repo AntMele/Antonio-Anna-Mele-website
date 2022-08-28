@@ -18,15 +18,15 @@ $global-font-color: #161209 !default;
 $global-font-color-dark: #a9a9b3 !default;
 
 // Color of the secondary text
-$global-font-secondary-color: #a9a9b3 !default;
-$global-font-secondary-color-dark: #5d5d5f !default;
+$global-font-secondary-color: #b90000 !default;
+$global-font-secondary-color-dark: #d40404ef !default;
 
 // Color of the link
 $global-link-color: #161209 !default;
 $global-link-color-dark: #a9a9b3 !default;
 
 // Color of the hover link
-$global-link-hover-color: #2d96bd !default;
+$global-link-hover-color: #a00f0fd3 !default;
 $global-link-hover-color-dark: #fff !default;
 
 // Color of the border
@@ -44,8 +44,8 @@ $scrollbar-hover-color: #a9a9b3 !default;
 
 // ========== Selection ========== //
 // Color of the selected text
-$selection-color: rgba(53, 166, 247, 0.25) !default;
-$selection-color-dark: rgba(50, 112, 194, 0.4) !default;
+$selection-color: rgba(204, 120, 120, 0.911) !default;
+$selection-color-dark: rgb(206, 120, 120) !default;
 // ========== Selection ========== //
 
 // ========== Header ========== //
@@ -75,12 +75,12 @@ $toc-title-font-size: 1.2rem !default;
 $toc-content-font-size: 1rem !default;
 
 // Color of the single link
-$single-link-color: #2d96bd !default;
-$single-link-color-dark: #55bde2 !default;
+$single-link-color: #c51c10d8 !default;
+$single-link-color-dark: #c03939e3 !default;
 
 // Color of the hover single link
-$single-link-hover-color: #ef3982 !default;
-$single-link-hover-color-dark: #bdebfc !default;
+$single-link-hover-color: rgb(253, 101, 0) !default;
+$single-link-hover-color-dark: #ff6c0a !default;
 
 // Color of the table background
 $table-background-color: #fff !default;
@@ -91,13 +91,13 @@ $table-thead-color: #ededed !default;
 $table-thead-color-dark: #20252b !default;
 
 // Color of the blockquote
-$blockquote-color: #6bd6fd !default;
-$blockquote-color-dark: #59c5ec !default;
+$blockquote-color: #e23111e3 !default;
+$blockquote-color-dark: #d33328ec !default;
 // ========== Single Content ========== //
 
 // ========== Pagination ========== //
 // Color of the link in pagination
-$pagination-link-color: #2d96bd !default;
+$pagination-link-color: #d33823ce !default;
 $pagination-link-color-dark: #a9a9b3 !default;
 
 // Color of the hover link in pagination
