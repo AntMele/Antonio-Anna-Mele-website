@@ -62,8 +62,8 @@ theme = "LoveIt"
       #  url = "/personal/"
       #  title = ""
       #  weight = 3
-  [languages.it]
-    weight = 2
+  #[languages.it]
+    #weight = 2
     # language code
     languageCode = "it"
     # language name
@@ -77,7 +77,7 @@ theme = "LoveIt"
     # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # Menu config
-    [languages.it.menu]
+    #[languages.it.menu]
       #[[languages.it.menu.main]]
        # identifier = "posts"
        # # you can add extra information before the name (HTML format is supported), such as icons
@@ -89,22 +89,22 @@ theme = "LoveIt"
        # # title will be shown when you hover on this menu link
        # title = ""
        # weight = 4
-      [[languages.it.menu.main]]
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "Chi Sono"
-        url = "/about/"
-        title = ""
-        weight = 1
-      [[languages.it.menu.main]]
-        identifier = "research"
-        pre = ""
-        post = ""
-        name = "Ricerca"
-        url = "/research/"
-        title = ""
-        weight = 2
+      #[[languages.it.menu.main]]
+        #identifier = "about"
+        #pre = ""
+        #post = ""
+        #name = "Chi Sono"
+        #url = "/about/"
+        #title = ""
+        #weight = 1
+      #[[languages.it.menu.main]]
+        #identifier = "research"
+        #pre = ""
+        #post = ""
+        #name = "Ricerca"
+        #url = "/research/"
+        #title = ""
+        #weight = 2
       #[[languages.it.menu.main]]
       #  identifier = "personal"
       #  pre = ""
