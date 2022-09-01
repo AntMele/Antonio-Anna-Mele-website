@@ -65,17 +65,17 @@ theme = "LoveIt"
   #[languages.it]
     #weight = 2
     # language code
-    languageCode = "it"
+    #languageCode = "it"
     # language name
-    languageName = "Italiano"
+    #languageName = "Italiano"
     # whether to include Chinese/Japanese/Korean
-    hasCJKLanguage = false
+    #hasCJKLanguage = false
     # default amount of posts in each pages
     paginate = 12
     # [UA-XXXXXXXX-X] google analytics code
-    googleAnalytics = ""
+    #googleAnalytics = ""
     # copyright description used only for seo schema
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    #copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # Menu config
     #[languages.it.menu]
       #[[languages.it.menu.main]]
