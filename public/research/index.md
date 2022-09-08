@@ -21,9 +21,9 @@
 ---
 
 # Talks
-* [DPG conference](https://regensburg22.dpg-tagungen.de/index.html?set_language=en), Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz, 2022.
+* [DPG conference](https://regensburg22.dpg-tagungen.de/index.html?set_language=en), Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz, 2022. [Slides](/documents/DPG_AvodingBP.pdf) 
 
-* [DPG conference](https://regensburg22.dpg-tagungen.de/index.html?set_language=en), Exploiting symmetry in variational quantum machine learning, 2022.
+* [DPG conference](https://regensburg22.dpg-tagungen.de/index.html?set_language=en), Exploiting symmetry in variational quantum machine learning, 2022. [Slides](/documents/DPG_Symmetry.pdf) 
 
 # Schools and Workshops
 * [QMATH Masterclass on Entropy Inequalities in Quantum Information Science](https://indico.nbi.ku.dk/event/1317/), University of Copenhagen, 2022.
