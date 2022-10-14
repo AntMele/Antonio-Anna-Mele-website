@@ -30,6 +30,9 @@ math:
 ---
 
 # Talks
+
+* [QTML conference](https://quasar.unina.it/qtml2022.html), Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz, 2022.
+
 * [DPG conference](https://regensburg22.dpg-tagungen.de/index.html?set_language=en), Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz, 2022. [Slides](/documents/DPG_AvodingBP.pdf) 
 
 * [DPG conference](https://regensburg22.dpg-tagungen.de/index.html?set_language=en), Exploiting symmetry in variational quantum machine learning, 2022. [Slides](/documents/DPG_Symmetry.pdf) 
