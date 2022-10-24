@@ -13,6 +13,7 @@
 
 # Publications
 
+* J. Liu, F. Wilde, **A. A. Mele**, L. Jiang, J. Eisert. [Noise can be helpful for variational quantum algorithms](https://arxiv.org/abs/2210.06723). ArXiv preprint, arXiv:2210.06723, 2022.
 
 * **A.A. Mele**, G.B. Mbeng, G.E. Santoro, M. Collura, P. Torta. [Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz](https://arxiv.org/abs/2206.01982). ArXiv preprint, arXiv:2206.01982, 2022.
 
@@ -21,6 +22,9 @@
 ---
 
 # Talks
+
+* [QTML conference](https://quasar.unina.it/qtml2022.html), Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz, 2022.
+
 * [DPG conference](https://regensburg22.dpg-tagungen.de/index.html?set_language=en), Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz, 2022. [Slides](/documents/DPG_AvodingBP.pdf) 
 
 * [DPG conference](https://regensburg22.dpg-tagungen.de/index.html?set_language=en), Exploiting symmetry in variational quantum machine learning, 2022. [Slides](/documents/DPG_Symmetry.pdf) 
