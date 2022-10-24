@@ -1,4 +1,4 @@
-# Research
+# Teaching
 
 
 >  Feel free to reach me by e-mail if you have any doubts or questions [:(fas fa-envelope):](mailto:antoniomele.p@gmail.com).
@@ -6,18 +6,18 @@
 ---
 
 
+
 
-
- # **Quantum Information, 2022-23 (Tutorials, FU Berlin)**
+## Quantum Information, 2022-23 (Tutorials, FU Berlin)
 
 Students can send me the week's exercises via e-mail [:(fas fa-envelope):](mailto:antoniomele.p@gmail.com). 
 
 
 ### Exercises 
 
-* Problem Sheet 0: "Warm-up". ([PDF](/documents/problem00.pdf))
+- Problem Sheet 0: "Warm-up". ([PDF](/documents/problem00.pdf))
 
-* Problem Sheet 1: "Density matrices and Bell experiments". ([PDF](/documents/problem01.pdf), Deadline: 28/10/22, 23.59)
+- Problem Sheet 1: "Density matrices and Bell experiments". ([PDF](/documents/problem01.pdf), Deadline: 28/10/22, 23.59)
 
 ### Theory
 

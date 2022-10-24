@@ -61,7 +61,7 @@ theme = "LoveIt"
         name = "Teaching"
         url = "/teaching/"
         title = ""
-        weight = 2
+        weight = 3
       #[[languages.en.menu.main]]
       #  identifier = "personal"
       #  pre = ""
