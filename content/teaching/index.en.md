@@ -32,9 +32,9 @@ Email me if you would like to be added to the mailing list that I will use for q
 
 ### Exercises 
 
-- Problem Sheet 0: "Warm-up". ([PDF](/documents/problem00.pdf))
+*  Problem Sheet 0: "Warm-up". ([PDF](/documents/problem00.pdf))
 
-- Problem Sheet 1: "Density matrices and Bell experiments". ([PDF](/documents/problem01.pdf), Deadline: Sunday, 31/10/22, 11:59 pm.)
+*  Problem Sheet 1: "Density matrices and Bell experiments". ([PDF](/documents/problem01.pdf), Deadline: Sunday, 31/10/22, 11:59 pm.)
 
 ### Theory
 
