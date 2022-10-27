@@ -26,13 +26,14 @@ math:
 Students can send me the week's exercises (photos of the sheets or notes written on tablet) via e-mail [:(fas fa-envelope):](mailto:antoniomele.p@gmail.com). For my tutorial, the usual deadline for submitting the exercises is Sunday at 11:59 pm.
  
 Email me if you would like to be added to the mailing list that I will use for quick communications related to my tutorials.
+This webpage can be useful for the students especially to have the tablet notes that I write and use for my tutorials.
 
 
 
 
 ### Exercises 
 
-*  Problem Sheet 0: "Warm-up". ([PDF](/documents/problem00.pdf))
+*  Problem Sheet 0: "Warm-up". ([PDF](/documents/problem00.pdf), [Solutions](/documents/Solutions_problem00_Mele.pdf))
 
 *  Problem Sheet 1: "Density matrices and Bell experiments". ([PDF](/documents/problem01.pdf), Deadline: Sunday, 31/10/22, 11:59 pm.)
 
