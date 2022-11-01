@@ -35,7 +35,7 @@ This webpage can be useful for the students especially to have the tablet notes 
 
 *  Problem Sheet 0: "Warm-up". ([PDF](/documents/problem00.pdf), [Solutions](/documents/Solutions_problem00_Mele.pdf))
 
-*  Problem Sheet 1: "Density matrices and Bell experiments". ([PDF](/documents/problem01.pdf),[Solutions](/documents/Solutions_problem01_Mele.pdf))
+*  Problem Sheet 1: "Density matrices and Bell experiments". ([PDF](/documents/problem01.pdf), [Solutions](/documents/Solutions_problem01_Mele.pdf))
 
 *  Problem Sheet 2: "POVMs and encoding classical information". ([PDF](/documents/problem02.pdf), Deadline: Sunday, 11:59 pm.)
 
