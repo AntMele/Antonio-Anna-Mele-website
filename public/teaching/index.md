@@ -12,7 +12,7 @@
 
 ---
 
->  **New message** : Next Tuesday, we'll finish Problem Sheet 3, and continue with Problem Sheet 4. 
+>  **New message** : Next Tuesday, we'll finish Problem Sheet 4, and continue with Problem Sheet 5. 
 
 ---
 Students can send me the week's exercises (photos of the sheets or notes written on tablet) via e-mail [:(fas fa-envelope):](mailto:antoniomele.p@gmail.com). For my tutorial, the usual deadline for submitting the exercises is Sunday at 11:59 pm.
@@ -32,6 +32,10 @@ This webpage can be useful for the students especially to have the tablet notes 
 *  Problem Sheet 2: "POVMs and encoding classical information". ([PDF](/documents/problem02.pdf), [Solutions](/documents/Solutions_problem02_Mele.pdf))
 
 *  Problem Sheet 3: "Quantum Teleportation and p-norms". ([PDF](/documents/problem03.pdf), [Solutions](/documents/Solutions_problem03_Mele.pdf))
+
+*  Problem Sheet 4: "Graphical calculus and Quantum Channels". ([PDF](/documents/problem04.pdf), [Solutions](/documents/Solutions_problem04_Mele.pdf))
+
+*  Problem Sheet 5: "More Quantum Channels and Entropy". ([PDF](/documents/problem05.pdf))
 
 ### Theory
 
