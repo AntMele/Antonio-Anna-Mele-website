@@ -41,6 +41,10 @@ This webpage can be useful for the students especially to have the tablet notes 
 
 *  Problem Sheet 3: "Quantum Teleportation and p-norms". ([PDF](/documents/problem03.pdf), [Solutions](/documents/Solutions_problem03_Mele.pdf))
 
+*  Problem Sheet 4: "Graphical calculus and Quantum Channels". ([PDF](/documents/problem04.pdf), [Solutions](/documents/Solutions_problem04_Mele.pdf))
+
+*  Problem Sheet 5: "More Quantum Channels and Entropy". ([PDF](/documents/problem05.pdf))
+
 ### Theory
 
 The main page of the course is [here](https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/teaching/ws22-23/index.html), where you can find the Lecture notes of the course written by Jens Eisert.
