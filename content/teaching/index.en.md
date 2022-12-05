@@ -48,7 +48,7 @@ This webpage can be useful for the students especially to have the tablet notes 
 Here are some additional notes used in my tutorial:
 
 * "PVM, POVM and Naimark dilatation theorem". ([PDF](/documents/POVM.pdf))
-* "Theorems on Quantum Channels". ([PDF](/documents/Qchannel.pdf))
+* "Quantum Channels Theorems". ([PDF](/documents/Qchannel.pdf))
 
 ### Theory
 
