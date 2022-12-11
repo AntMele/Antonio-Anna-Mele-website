@@ -43,12 +43,14 @@ This webpage can be useful for the students especially to have the tablet notes 
 
 *  Problem Sheet 4: "Graphical calculus and Quantum Channels". ([PDF](/documents/problem04.pdf), [Solutions](/documents/Solutions_problem04_Mele.pdf))
 
-*  Problem Sheet 5: "More Quantum Channels and Entropy". ([PDF](/documents/problem05.pdf))
+*  Problem Sheet 5: "More Quantum Channels and Entropy". ([PDF](/documents/problem05.pdf), [Solutions](/documents/Solutions_problem05_Mele.pdf))
 
 Here are some additional notes used in my tutorial:
 
 * "PVM, POVM and Naimark dilatation theorem". ([PDF](/documents/POVM.pdf))
 * "Quantum Channels Theorems". ([PDF](/documents/Qchannel.pdf))
+* "Classical Entropies". ([PDF](/documents/Classical_InfoTheory_Mele.pdf))
+* "Quantum Entropies". ([PDF](/documents/QuantumEntropies_Mele.pdf))
 
 ### Theory
 
@@ -56,6 +58,8 @@ The main page of the course is [here](https://www.physik.fu-berlin.de/en/einrich
  
 Other good Quantum Information notes are those written by John Preskill, which can be found [here](http://theory.caltech.edu/~preskill/ph219/index.html#lecture). 
 
-A great reference for Quantum Shannon Theory is the book of Mark Wilde, which can be found [here](https://arxiv.org/pdf/1106.1445.pdf). 
+The book written by Nielsen & Chuang can be found [here](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf). 
+
+A good reference for Quantum Shannon Theory is the book of Mark Wilde, which can be found [here](https://arxiv.org/pdf/1106.1445.pdf). 
 
 
