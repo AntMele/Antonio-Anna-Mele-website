@@ -21,7 +21,7 @@ math:
 
 *  J. Liu, F. Wilde, **A. A. Mele**, L. Jiang, J. Eisert. [Noise can be helpful for variational quantum algorithms](https://arxiv.org/abs/2210.06723). ArXiv preprint, arXiv:2210.06723, 2022.
 
-*  **A.A. Mele**, G.B. Mbeng, G.E. Santoro, M. Collura, P. Torta. [Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz](https://arxiv.org/abs/2206.01982). ArXiv preprint, arXiv:2206.01982, 2022.
+*  **A.A. Mele**, G.B. Mbeng, G.E. Santoro, M. Collura, P. Torta. [Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz](https://arxiv.org/abs/2206.01982), 2022. [PRA Letter](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.106.L060401).
 
 *  J.J. Meyer, M. Mularski, E. Gil-Fuster, **A.A. Mele**, F. Arzani, A. Wilms, J. Eisert. [Exploiting symmetry in variational quantum machine learning](https://arxiv.org/abs/2205.06217). ArXiv preprint, arXiv:2206.01982, 2022.
 
