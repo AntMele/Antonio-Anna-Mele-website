@@ -45,6 +45,12 @@ This webpage can be useful for the students especially to have the tablet notes 
 
 *  Problem Sheet 5: "More Quantum Channels and Entropy". ([PDF](/documents/problem05.pdf), [Solutions](/documents/Solutions_problem05_Mele.pdf))
 
+*  Problem Sheet 6: "Operator Properties and LOCC". ([PDF](/documents/problem06.pdf), [Solutions](/documents/Solutions_problem06_Mele.pdf))
+
+*  Problem Sheet 7: "Capacities and Majorization". ([PDF](/documents/problem07.pdf), [Solutions](/documents/Solutions_problem07_Mele.pdf))
+
+*  Problem Sheet 8: "Entanglement Witnesses and Cryptography". ([PDF](/documents/problem08.pdf), [Solutions](/documents/Solutions_problem08_Mele.pdf))
+
 Here are some additional notes used in my tutorial:
 
 * "PVM, POVM and Naimark dilatation theorem". ([PDF](/documents/POVM.pdf))
@@ -56,10 +62,10 @@ Here are some additional notes used in my tutorial:
 
 The main page of the course is [here](https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/teaching/ws22-23/index.html), where you can find the Lecture notes of the course written by Jens Eisert.
  
-Other good Quantum Information notes are those written by John Preskill, which can be found [here](http://theory.caltech.edu/~preskill/ph219/index.html#lecture). 
+Other good Quantum Information notes are for example those written by John Preskill [PDF](http://theory.caltech.edu/~preskill/ph219/index.html#lecture) and those written by Joseph M. Renes [PDF](https://edu.itp.phys.ethz.ch/hs15/QIT/renes_lecture_notes14.pdf).
 
 The book written by Nielsen & Chuang can be found [here](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf). 
 
-A good reference for Quantum Shannon Theory is the book of Mark Wilde, which can be found [here](https://arxiv.org/pdf/1106.1445.pdf). 
+A good reference for Information Theory is the book of Cover & Thomas [PDF](http://staff.ustc.edu.cn/~cgong821/Wiley.Interscience.Elements.of.Information.Theory.Jul.2006.eBook-DDU.pdf), while a good reference for Quantum Shannon Theory is Mark Wilde's book [PDF](https://arxiv.org/pdf/1106.1445.pdf). 
 
 
