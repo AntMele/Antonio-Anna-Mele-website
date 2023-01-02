@@ -18,7 +18,7 @@ math:
 I am a PhD student in [Jens Eisert group](https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/index.html) at the Free University of Berlin.
 
 My research interests interface with all aspects of **Quantum Information Theory** and **Quantum Computing**.
-I enjoy working on the more mathematical aspects, such as **Quantum Tomography**, **Learning Theory** or **Random Unitaries**, as well as addressing more applied questions in **Quantum Machine Learning**.
+I enjoy working on the more mathematical aspects, such as **Quantum Tomography** or **Learning Theory**, as well as addressing more applied questions in **Quantum Machine Learning**.
 I am also interested in topics from **Theoretical Computer Science**, **Machine Learning** and **Artificial Intelligence**.
 In my research I love to combine rigorous mathematical-theoretical tools with programming tools. 
 

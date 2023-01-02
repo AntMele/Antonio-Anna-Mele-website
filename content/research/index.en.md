@@ -29,7 +29,7 @@ math:
 
 # Talks
 
-* [QTML conference](https://quasar.unina.it/qtml2022.html), Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz, 2022. [Slides](/documents/QTML_Mele_AntonioAnna.pdf) 
+* [QTML conference](https://quasar.unina.it/qtml2022.html), Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz, 2022, Extended talk. [Slides](/documents/QTML_Mele_AntonioAnna.pdf) 
 
 * [DPG conference](https://regensburg22.dpg-tagungen.de/index.html?set_language=en), Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz, 2022. [Slides](/documents/DPG_AvodingBP.pdf) 
 
