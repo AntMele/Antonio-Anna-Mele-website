@@ -57,7 +57,7 @@ Here are some additional notes used in my tutorial:
 
 The main page of the course is [here](https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/teaching/ws22-23/index.html), where you can find the Lecture notes of the course written by Jens Eisert.
  
-Other good Quantum Information notes are for example those written by John Preskill [PDF](http://theory.caltech.edu/~preskill/ph219/index.html#lecture) and those written by Joseph M. Renes [PDF](https://edu.itp.phys.ethz.ch/hs15/QIT/renes_lecture_notes14.pdf).
+Other good Quantum Information notes are for example those written by Michael M. Wolf [PDF](https://www-m5.ma.tum.de/foswiki/pub/M5/Allgemeines/MichaelWolf/QChannelLecture.pdf), those written by John Preskill [PDF](http://theory.caltech.edu/~preskill/ph219/index.html#lecture) and those written by Joseph M. Renes [PDF](https://edu.itp.phys.ethz.ch/hs15/QIT/renes_lecture_notes14.pdf).
 
 The book written by Nielsen & Chuang can be found [here](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149940643.pdf). 
 
