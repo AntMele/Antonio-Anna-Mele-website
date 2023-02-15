@@ -50,13 +50,15 @@ This webpage can be useful for the students especially to have the tablet notes 
 
 *  Problem Sheet 10: "More stabilizers and quantum gates". ([PDF](/documents/problem10.pdf), [Solutions](/documents/Solutions_problem10_Mele.pdf))
 
+*  Problem Sheet 11: "Measurement based quantum computing". ([PDF](/documents/problem11.pdf), [Solutions](/documents/Solutions_problem11_Mele.pdf))
+
 Here are some additional notes used in my tutorial:
 
 * "PVM, POVM and Naimark dilatation theorem". ([PDF](/documents/POVM.pdf))
 * "Quantum Channels Theorems". ([PDF](/documents/Qchannel.pdf))
 * "Classical Entropies". ([PDF](/documents/Classical_InfoTheory_Mele.pdf))
 * "Quantum Entropies". ([PDF](/documents/QuantumEntropies_Mele.pdf))
-* "Basics of quantum computing". ([PDF](/documents/QuantumComputingBasics_Mele.pdf))
+* "Basics of Quantum Computing". ([PDF](/documents/QuantumComputingBasics_Mele.pdf))
 * "Stabilizer formalism". ([PDF](/documents/Stabilizer_Mele.pdf))
 
 
