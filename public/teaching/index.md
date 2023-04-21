@@ -48,6 +48,7 @@ Here are some additional notes used in my tutorial:
 
 * "PVM, POVM and Naimark dilatation theorem". ([PDF](/documents/POVM.pdf))
 * "Quantum Channels Theorems". ([PDF](/documents/Qchannel.pdf))
+* "Simple proofs of Schmidt and Kraus decomposition" ([PDF](/documents/SimpleProofKrausSchmidt.pdf)).
 * "Classical Entropies". ([PDF](/documents/Classical_InfoTheory_Mele.pdf))
 * "Quantum Entropies". ([PDF](/documents/QuantumEntropies_Mele.pdf))
 * "Basics of Quantum Computing". ([PDF](/documents/QuantumComputingBasics_Mele.pdf))
