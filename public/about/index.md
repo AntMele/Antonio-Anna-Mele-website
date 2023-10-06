@@ -14,7 +14,7 @@ Currently, I like to think about topics in **Quantum Learning Theory**, **Random
 I am also interested in topics from **Theoretical Computer Science** and **Machine Learning**.
 In my research I love to combine rigorous mathematical-theoretical tools with programming tools. 
 
-For a list of my publications, see my [Research webpage](/research) and my [Google Scholar profile](https://scholar.google.com/citations?user=_kWrHQwAAAAJ&hl=en&oi=sra). 
+For a list of my publications, see my [Research webpage](/research) and my [Google Scholar profile](https://scholar.google.com/citations?user=IgnTVy4AAAAJ&hl=en&authuser=1). 
 
 # Short CV:  
 * PhD student on _Quantum Information_, [Free University of Berlin](https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/index.html) (Germany), November 2021 - ongoing.

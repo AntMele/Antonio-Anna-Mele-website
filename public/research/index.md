@@ -3,7 +3,7 @@
 
 
 >
-> [**Curriculum Vitae CV** :(fas fa-file-download):](/documents/CV_AntonioAnnaMele.pdf) | [**Google Scholar** :(fas fa-graduation-cap):](https://scholar.google.com/citations?user=_kWrHQwAAAAJ&hl=en&oi=sra) | [**arXiv**](https://arxiv.org/search/quant-ph?searchtype=author&query=Mele%2C+A+A) | [**Orcid** :(fab fa-orcid):](https://orcid.org/0000-0002-1009-7331).
+> [**Curriculum Vitae CV** :(fas fa-file-download):](/documents/CV_AntonioAnnaMele.pdf) | [**Google Scholar** :(fas fa-graduation-cap):](https://scholar.google.com/citations?user=IgnTVy4AAAAJ&hl=en&authuser=1) | [**arXiv**](https://arxiv.org/search/quant-ph?searchtype=author&query=Mele%2C+A+A) | [**Orcid** :(fab fa-orcid):](https://orcid.org/0000-0002-1009-7331).
 
  
 ---
