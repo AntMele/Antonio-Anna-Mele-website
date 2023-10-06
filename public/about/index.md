@@ -10,8 +10,8 @@
 I am a PhD student in [Jens Eisert group](https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/index.html) at the Free University of Berlin.
 
 My research interests interface with all aspects of **Quantum Information Theory** and **Quantum Computing**.
-I enjoy working on the more mathematical aspects, such as **Quantum Tomography** or **Learning Theory**, as well as addressing more applied questions in **Quantum Machine Learning**.
-I am also interested in topics from **Theoretical Computer Science**, **Machine Learning** and **Artificial Intelligence**.
+Currently, I like to think about topics in **Quantum Learning Theory**, **Random Quantum Circuits** and **Quantum Computation with fermions**. I also find fascinating questions about **Classical simulations of quantum circuits** as well as understand **Classical simulations vs learnability* of classes of quantum states.
+I am also interested in topics from **Theoretical Computer Science** and **Machine Learning**.
 In my research I love to combine rigorous mathematical-theoretical tools with programming tools. 
 
 For a list of my publications, see my [Research webpage](/research) and my [Google Scholar profile](https://scholar.google.com/citations?user=_kWrHQwAAAAJ&hl=en&oi=sra). 

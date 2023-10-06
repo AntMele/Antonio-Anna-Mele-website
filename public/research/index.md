@@ -11,11 +11,17 @@
 
 # Publications
 
-*  J. Liu, F. Wilde, **A. A. Mele**, L. Jiang, J. Eisert. [Noise can be helpful for variational quantum algorithms](https://arxiv.org/abs/2210.06723). ArXiv preprint, arXiv:2210.06723, 2022.
+*  J. Denzler, **A.A. Mele**, E. Derbyshire, T. Guaita, J. Eisert. [Learning fermionic correlations by evolving with random translationally invariant Hamiltonians], 2023. [ ArXiv preprint](https://arxiv.org/abs/2309.12933).
+
+*  **A.A. Mele**. [Introduction to Haar Measure Tools in Quantum Information: A Beginner's Tutorial], 2023. [ ArXiv preprint](https://arxiv.org/abs/2307.08956).
+
+*  J.J. Meyer, M. Mularski, E. Gil-Fuster, **A.A. Mele**, F. Arzani, A. Wilms, J. Eisert. [Exploiting symmetry in variational quantum machine learning], 2023. [PRX Quantum](https://arxiv.org/abs/2205.06217).  
+
+*  J. Liu, F. Wilde, **A. A. Mele**, L. Jiang, J. Eisert. [Stochastic noise can be helpful for variational quantum algorithms], 2022. [ArXiv preprint](https://arxiv.org/abs/2210.06723).
 
 *  **A.A. Mele**, G.B. Mbeng, G.E. Santoro, M. Collura, P. Torta. [Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz](https://arxiv.org/abs/2206.01982), 2022. [PRA Letter](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.106.L060401).
 
-*  J.J. Meyer, M. Mularski, E. Gil-Fuster, **A.A. Mele**, F. Arzani, A. Wilms, J. Eisert. [Exploiting symmetry in variational quantum machine learning](https://arxiv.org/abs/2205.06217). ArXiv preprint, arXiv:2206.01982, 2022.
+
 
 ---
 
@@ -28,8 +34,8 @@
 * [DPG conference](https://regensburg22.dpg-tagungen.de/index.html?set_language=en), Exploiting symmetry in variational quantum machine learning, 2022. [Slides](/documents/DPG_Symmetry.pdf) 
 
 # Schools and Workshops
+* [QMATH Masterclass 2023 on Quantum Learning Theory](https://qmath.ku.dk/events/quantum-learning-theory/), University of Copenhagen, 2023.
 * [QMATH Masterclass on Entropy Inequalities in Quantum Information Science](https://indico.nbi.ku.dk/event/1317/), University of Copenhagen, 2022.
-
 ---
 
 # Other projects
