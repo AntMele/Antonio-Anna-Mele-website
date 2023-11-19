@@ -43,6 +43,7 @@ math:
 
 # Schools and Workshops
 * [QMATH Masterclass 2023 on Quantum Learning Theory](https://qmath.ku.dk/events/quantum-learning-theory/), University of Copenhagen, 2023.
+* [PCMI 2023 Graduate Summer School in Quantum Computation](https://www.ias.edu/pcmi/pcmi-2023-graduate-summer-school), IAS/Park City Mathematics Institute. 2023.
 * [QMATH Masterclass on Entropy Inequalities in Quantum Information Science](https://indico.nbi.ku.dk/event/1317/), University of Copenhagen, 2022.
 ---
 
