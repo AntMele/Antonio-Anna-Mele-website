@@ -18,8 +18,13 @@ math:
 
 
 # Publications
+*  L. Bittel, **A.A. Mele**, J. Eisert, L. Leone. [PAC-learning of free-fermionic states is NP-hard](https://arxiv.org/abs/2404.03585), 2024. [ArXiv preprint](https://arxiv.org/abs/2404.03585).
 
-*  J. Denzler, **A.A. Mele**, E. Derbyshire, T. Guaita, J. Eisert. [Learning fermionic correlations by evolving with random translationally invariant Hamiltonians](https://arxiv.org/abs/2307.08956), 2023. [ ArXiv preprint](https://arxiv.org/abs/2309.12933).
+*  **A.A. Mele**, A. Angrisani, S. Ghosh, S. Khatri, J. Eisert, D.S. França, Y. Quek. [Noise-induced shallow circuits and absence of barren plateaus](https://arxiv.org/abs/2403.13927), 2024. [ArXiv preprint](https://arxiv.org/abs/2403.13927).
+
+*  **A.A. Mele**, Y. Herasymenko. [Efficient learning of quantum states prepared with few fermionic non-Gaussian gates](https://arxiv.org/abs/2402.18665), 2024. [ArXiv preprint](https://arxiv.org/abs/2402.18665).
+
+*  J. Denzler, **A.A. Mele**, E. Derbyshire, T. Guaita, J. Eisert. [Learning fermionic correlations by evolving with random translationally invariant Hamiltonians](https://arxiv.org/abs/2307.08956), 2023. [ArXiv preprint](https://arxiv.org/abs/2309.12933).
 
 *  **A.A. Mele**. [Introduction to Haar Measure Tools in Quantum Information: A Beginner's Tutorial](https://arxiv.org/abs/2307.08956), 2023. [ ArXiv preprint](https://arxiv.org/abs/2307.08956).
 
@@ -34,6 +39,10 @@ math:
 ---
 
 # Talks
+
+* [CQT seminar, National University of Singapore](https://www.youtube.com/channel/UCrE9afYu8eGUb4-7d3aJkdQ), Noise-induced shallow circuits and absence of barren plateaus, 2024, Invited talk. 
+
+* [BraQIIIT lab seminar, IIIT-Delhi](https://braqiiit.github.io/images/Antonio%20Talk%20Flyer.pdf), Noise-induced shallow circuits and absence of barren plateaus, 2024, Invited talk. 
 
 * [QTML conference](https://quasar.unina.it/qtml2022.html), Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz, 2022, Extended talk. [Slides](/documents/QTML_Mele_AntonioAnna.pdf) 
 
