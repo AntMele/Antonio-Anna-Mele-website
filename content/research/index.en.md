@@ -49,22 +49,20 @@ math:
 
 * J. Liu, F. Wilde, **A.A. Mele**, L. Jiang, J. Eisert. [Stochastic noise can be helpful for variational quantum algorithms](https://arxiv.org/abs/2210.06723), 2022. [ArXiv preprint](https://arxiv.org/abs/2210.06723).
 
-
 ---
-
 # Talks
 
 **Conferences**:
 
-* [QIP 2025 conference](https://qipconference.org/nextqip),  [Learning](https://arxiv.org/abs/2402.18665) and [Testing](https://arxiv.org/abs/2409.17953) quantum states of fermionic systems, 2024.
+* [QIP 2025 conference](https://qipconference.org/nextqip),  [Learning](https://arxiv.org/abs/2402.18665) and [Testing](https://arxiv.org/abs/2409.17953) quantum states of fermionic systems.
 
 * [QIP 2025 conference](https://qipconference.org/nextqip),  [Tomography of bosonic systems](https://arxiv.org/abs/2405.01431) and [optimal estimates of the trace distance between Gaussian states](https://arxiv.org/abs/2411.02368), 2024, presented by my coauthor (twin brother) Mele Francesco Anna.
 
-* [TQC 2024 conference](https://www.youtube.com/watch?v=F1VMYeWC8O8), Noise-induced shallow circuits and absence of barren plateaus, 2024. 
+* [TQC 2024 conference](https://tqc-conference.org/), Noise-induced shallow circuits and absence of barren plateaus, 2024. ([Youtube](https://www.youtube.com/watch?v=F1VMYeWC8O8))
 
-* [TQC 2024 conference],  [Learning quantum states of continuous variable systems](https://arxiv.org/abs/2405.01431), 2024, presented by my coauthor (twin brother) Mele Francesco Anna.
+* [TQC 2024 conference](https://tqc-conference.org/),  [Learning quantum states of continuous variable systems](https://arxiv.org/abs/2405.01431), 2024, presented by my coauthor (twin brother) Mele Francesco Anna. ([Youtube](https://www.youtube.com/watch?v=hGG4mIHl6e0&t=837s))
 
-* [QTML conference](https://quasar.unina.it/qtml2022.html), Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz, 2022, Extended talk. [Slides](/documents/QTML_Mele_AntonioAnna.pdf) 
+* [QTML conference](https://quasar.unina.it/qtml2022.html), Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz, 2022, Extended talk. [Slides](/documents/QTML_Mele_AntonioAnna.pdf)  
 
 * [DPG conference](https://regensburg22.dpg-tagungen.de/index.html?set_language=en), Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz, 2022. [Slides](/documents/DPG_AvodingBP.pdf) 
 
@@ -74,10 +72,16 @@ math:
 
 * **Quantinuum (London) seminar**,  [Efficient learning of quantum states prepared with few fermionic non-Gaussian gates](https://arxiv.org/abs/2402.18665), 2024, Invited talk.
 
-* [CQT seminar, National University of Singapore](https://www.youtube.com/channel/UCrE9afYu8eGUb4-7d3aJkdQ), Noise-induced shallow circuits and absence of barren plateaus, 2024, Invited talk. 
+* **CRC 2024 workshop Berlin**, Noise-induced shallow circuits and absence of barren plateaus, 2024. 
+
+* [CQT seminar, National University of Singapore](https://www.youtube.com/channel/UCrE9afYu8eGUb4-7d3aJkdQ), Noise-induced shallow circuits and absence of barren plateaus, 2024, Invited talk.  ([Youtube](https://www.youtube.com/channel/UCrE9afYu8eGUb4-7d3aJkdQ)) 
 
 * [BraQIIIT lab seminar, IIIT-Delhi](https://braqiiit.github.io/images/Antonio%20Talk%20Flyer.pdf), Noise-induced shallow circuits and absence of barren plateaus, 2024, Invited talk. 
 
+---
+# Academic service
+* [QIP 2025 conference](https://qipconference.org/nextqip), [Program Committee](https://rsvp.duke.edu/event/qip2025/contact) member.
+---
 
 # Internships and Workshops
 
