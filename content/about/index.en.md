@@ -18,11 +18,10 @@ math:
 I am a PhD student in [Jens Eisert group](https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/index.html) at the Free University of Berlin.
 
 My research interests interface with all aspects of **Quantum Information Theory** and **Quantum Computing**.
-Currently, I like to think about topics in **Quantum Learning Theory**, **Random Quantum Circuits** and **Quantum Computation with fermions**. I also find fascinating questions about **Classical simulations of quantum circuits** as well as understand **Classical simulations vs learnability** of classes of quantum states.
-I am also interested in topics from **Theoretical Computer Science** and **Machine Learning**.
+Currently, I like to think about topics in **Quantum Learning Theory**, **Effect of noise in Quantum Computing**, and **Quantum Computation with fermions**. I also find fascinating questions about **Classical simulations of quantum circuits**.
 In my research I love to combine rigorous mathematical-theoretical tools with programming tools. 
 
-For a list of my publications, see my [Research webpage](/research) and my [Google Scholar profile](https://scholar.google.com/citations?user=IgnTVy4AAAAJ&hl=en&authuser=1). 
+For a complete list of my publications, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=IgnTVy4AAAAJ&hl=en&authuser=1). 
 
 # Short CV:  
 * PhD student on _Quantum Information_, [Free University of Berlin](https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/index.html) (Germany), November 2021 - ongoing.
