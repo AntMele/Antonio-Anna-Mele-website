@@ -14,7 +14,29 @@ math:
 ---
 
 
-
+## Representation Theory for Quantum Information Science — QMATH Masterclass 2025
+
+These are the lecture notes ([Click here for the PDF](/documents/QMATH_Basics_of_Representation_Theory_Mele.pdf)) for my tutorial on the basics of representation theory, 
+with applications to quantum information science, delivered at the 
+[QMATH Masterclass on Representation Theory in Quantum Information Science](https://qmath.ku.dk/events/conferences/representation-theory-in-quantum-information-science/)
+in Copenhagen, 15 August 2025.
+
+**Material**  
+* Lecture Notes: [A Tutorial on the Basics of Representation Theory for Quantum Information Science](/documents/QMATH_Basics_of_Representation_Theory_Mele.pdf)
+
+**Main topics covered:**  
+* Groups and representations  
+* Irreducible representations and decomposition  
+* Schur’s Lemma and applications  
+* Character theory and orthogonality relations  
+* Fourier analysis on finite groups  
+* Quick overview of compact groups generalizations
+
+
+
+************************************************************************************************************************
+************************************************************************************************************************
+__________________
 
 ## Quantum Information, 2022-23 (Tutorials, FU Berlin)
 
