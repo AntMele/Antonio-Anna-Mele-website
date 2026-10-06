@@ -42,10 +42,15 @@ theme = "LoveIt"
         identifier = "about"
         pre = ""
         post = ""
-        name = "About"
+        name = "About (CV)"
         url = "/about/"
         title = ""
         weight = 1
+       [[languages.en.menu.main]]
+  identifier = "news"
+  name = "News"
+  url = "/news/"
+  weight = 2
       [[languages.en.menu.main]]
         identifier = "research"
         pre = ""
@@ -53,7 +58,7 @@ theme = "LoveIt"
         name = "Research"
         url = "/research/"
         title = ""
-        weight = 2
+        weight = 3
       [[languages.en.menu.main]]
         identifier = "teaching"
         pre = ""
@@ -61,15 +66,10 @@ theme = "LoveIt"
         name = "Teaching"
         url = "/teaching/"
         title = ""
-        weight = 3
-      #[[languages.en.menu.main]]
-      #  identifier = "personal"
-      #  pre = ""
-      #  post = ""
-      #  name = "Personal"
-      #  url = "/personal/"
-      #  title = ""
-      #  weight = 3
+        weight = 4
+ 
+
+
   #[languages.it]
     #weight = 2
     # language code
@@ -243,12 +243,12 @@ theme = "LoveIt"
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = "/images/PhotoSlack.jpg"
+      avatarURL = "/images/PhotoSlack3.jpg"
       #  title shown in home page (HTML format is supported)
       title = "Antonio Anna Mele" #👋
       # subtitle shown in home page
       #subtitle = "<i> Roses are red, violets are blue; <br> a qubit is up, but it's also down too</i>"
-      subtitle = "<i>PhD student in Quantum Information and Quantum Computing, <br> AI and Machine Learning enthusiast, <br> Freie Universität Berlin, Jens Eisert group </i>"
+      subtitle = "<i>PhD student in Quantum Information at Freie Universität Berlin, <br> 2025 Google PhD Fellow in Quantum Computing <br> AI and Machine Learning enthusiast </i>"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -270,7 +270,7 @@ theme = "LoveIt"
   [params.social]
     Linkedin = "antonio-anna-mele"
     Twitter = "QuAntonioMele"
-    GitHub = "AntMele"
+    #GitHub = "AntMele"
     Googlescholar = "user=IgnTVy4AAAAJ&hl"
     Researchgate = "" #Antonio Mele"
     #Instagram = "xxxx"

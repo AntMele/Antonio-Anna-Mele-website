@@ -1,0 +1,471 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Antonio Anna Mele — Optimized Academic CV (ModernCV)
+% Date: 19 Oct 2025
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt,a4paper,sans,unicode]{moderncv}
+
+% --------------------------------------
+% Style & color
+% --------------------------------------
+\moderncvstyle{classic}
+\moderncvcolor{blue}  % classic, understated
+
+% --------------------------------------
+% Basic packages (tighter top margin)
+% --------------------------------------
+\usepackage[scale=0.90, top=1.4cm]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+% --------------------------------------
+% Link color (harmonized with moderncv blue)
+% --------------------------------------
+\definecolor{myblue}{RGB}{0,70,180}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=myblue,
+  linkcolor=myblue,
+  citecolor=myblue
+}
+
+% --------------------------------------
+% Auto-descending numbering for CV items
+% --------------------------------------
+\newcounter{pub}
+\setcounter{pub}{1} % <-- total number of publications listed
+\newcommand{\cvpubitem}[1]{\cvitem{\thepub.}{#1}\addtocounter{pub}{1}}
+
+\newcommand{\sel}{$\ast$\,}
+% --------------------------------------
+% Compact header typography (professional + space-saving)
+% --------------------------------------
+\renewcommand*{\namefont}{\fontsize{26}{27}\bfseries}
+\renewcommand*{\titlefont}{\small\mdseries}
+%\renewcommand*{\extrainfofont}{\small\mdseries}
+
+% --------------------------------------
+% NAME & CONTACT (Professional Header)
+% --------------------------------------
+\firstname{Antonio Anna}
+\familyname{Mele}
+
+% Role / affiliation line (appears below your name)
+\title{Quantum Information \textbullet\ Freie Universität Berlin \textbullet\ \href{https://blog.google/company-news/outreach-and-initiatives/google-org/phd-fellowship-program-2025/}{Google PhD Fellow}}
+% Clean, single-line extras (nationality + birth)
+%\extrainfo{Italian • Born: 22 Aug 1997}
+
+% Native moderncv contact fields (cleaner than manual line breaks)
+\email{antoniomele.p@gmail.com}
+\homepage{antonioannamele.com}
+\social[google-scholar]{IgnTVy4AAAAJ} % renders a scholar icon + link (classic style)
+
+% Professional badge line under the role
+%\quote{}
+
+\begin{document}
+
+% Pull the header up from the very top and tighten below the title
+\vspace*{-1.0cm}
+\makecvtitle
+\vspace*{-0.8\baselineskip}
+
+%----------------------------------------------------------------------------------------
+% SHORT PROFILE & RESEARCH INTERESTS
+%----------------------------------------------------------------------------------------
+%\section{\textbf{Short profile}}
+%\cvitem{}{PhD student in the Quantum Information group of Jens Eisert at Freie Universität Berlin, and recipient of the 2025 Google PhD Fellowship in Quantum Computing. I enjoy combining rigorous mathematical tools—such as representation theory, matrix analysis, and statistical learning theory—with applied numerical methods to tackle practically motivated problems.}
+
+%\cvitem{}{Website: \href{https://antonioannamele.com}{antonioannamele.com}}
+
+%----------------------------------------------------------------------------------------
+% EDUCATION
+%-----------------------------------------------------------------------------\section{\textbf{Education}}
+%----------------------------------------------------------------------------------------
+% EDUCATION
+%----------------------------------------------------------------------------------------
+\section{\textbf{Education}}
+
+\cvitem{2021--Present}{\textbf{PhD in Quantum Information}, Freie Universität Berlin, Germany. \emph{Advisor:} Jens Eisert.}
+\cvitem{}{Recipient of the \href{https://blog.google/company-news/outreach-and-initiatives/google-org/phd-fellowship-program-2025/}{\textbf{2025 Google PhD Fellowship in Quantum Computing}}, awarded to \emph{“outstanding graduate students doing exceptional and innovative research”}.}
+
+\cvitem{2019--2021}{\textbf{MSc in Physics} (Double Degree), University of Trento -- SISSA, Italy. Graduated with 110/110 \textit{cum laude} (highest possible grade); maximum average exam score.}
+
+\cvitem{2016--2019}{\textbf{BSc in Physics}, University of Pisa, Italy. Graduated with 110/110 \textit{cum laude} (highest possible grade).}
+
+
+%----------------------------------------------------------------------------------------
+% RESEARCH POSITIONS
+%----------------------------------------------------------------------------------------
+\section{\textbf{Research Positions}}
+
+\cvitem{Summer 2026}{\textbf{Graduate Student Researcher}, Google Quantum AI, Los Angeles, CA, USA. \emph{Mentor:} Jarrod McClean.}
+
+\cvitem{Summer 2024}{\textbf{Graduate Student Researcher}, Los Alamos National Laboratory, NM, USA. \emph{Mentor:} Marco Cerezo.}
+
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+% PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+%\section{Publications {\normalsize(\href{https://scholar.google.com/citations?user=IgnTVy4AAAAJ&hl}{Google Scholar}, $\ge$1100 citations, h-index~14, including preprints)}}
+
+% Google Scholar metrics verified on 6 October 2026; recheck before each application.
+\section{Publications {\normalsize(\href{https://scholar.google.com/citations?user=IgnTVy4AAAAJ&hl=en}{Google Scholar}, $1{,}600$ citations, h-index~16; selected papers marked with $\star$)}}
+
+% ===== Selected publications =====
+\cvpubitem{\sel \textbf{A.~A.~Mele}, F.~A.~Mele, J.~R.~McClean, T.~E.~O'Brien.
+\emph{Towards verifiable quantum advantage with random circuits: Observables that survive concentration}.
+\href{https://arxiv.org/abs/2609.37890}{arXiv:2609.37890} (2026).}
+
+\cvpubitem{\sel \textbf{A.~A.~Mele}, L.~Bittel.
+\emph{Optimal learning of quantum channels in diamond distance}.
+\textit{Nature Physics}, accepted for publication (2026).
+\href{https://arxiv.org/abs/2512.10214}{arXiv:2512.10214}.}
+
+\cvpubitem{\sel \textbf{A.~A.~Mele}, A.~Angrisani, S.~Ghosh, S.~Khatri, J.~Eisert, D.~S.~Fran\c{c}a, Y.~Quek.
+\emph{Noise-induced shallow circuits and the absence of barren plateaus}.
+\href{https://doi.org/10.1038/s41567-026-03245-z}{\textit{Nature Physics} 22, 751--756 (2026)}.}
+
+\cvpubitem{\sel F.~A.~Mele, \textbf{A.~A.~Mele}, L.~Bittel, J.~Eisert, V.~Giovannetti, L.~Lami, L.~Leone, S.~F.~E.~Oliviero.
+\emph{Learning quantum states of continuous-variable systems}.
+\href{https://doi.org/10.1038/s41567-025-03086-2}{\textit{Nature Physics} 21, 2002--2008 (2025)}.}
+
+\cvpubitem{\sel S.~Chen, \textbf{A.~A.~Mele}, F.~A.~Mele, J.~Preskill.
+\emph{When are bosonic Gaussian states classical to learn?}
+\href{https://arxiv.org/abs/2609.26705}{arXiv:2609.26705} (2026).}
+
+\cvpubitem{\sel T.~Parella-Dilm\'e, J.~Barber\`a-Rodr\'iguez, S.~F.~E.~Oliviero, \textbf{A.~A.~Mele}.
+\emph{Strong unitary designs in optimal depth and space}.
+\href{https://arxiv.org/abs/2608.13491}{arXiv:2608.13491} (2026).}
+
+
+\cvpubitem{\sel \textbf{A.~A.~Mele}, Y.~Herasymenko.
+\emph{Efficient learning of quantum states prepared with few fermionic non-Gaussian gates}.
+\href{https://doi.org/10.1103/PRXQuantum.6.010319}{\textit{PRX Quantum} 6, 010319 (2025)}.}
+
+\cvpubitem{\sel L.~Bittel, J.~Eisert, L.~Leone, \textbf{A.~A.~Mele}, S.~F.~E.~Oliviero.
+\emph{A complete theory of the Clifford commutant}.
+\href{https://doi.org/10.22331/q-2026-07-22-2171}{\textit{Quantum} 10, 2171 (2026)}.}
+
+\cvpubitem{\sel \textbf{A.~A.~Mele}.
+\emph{Introduction to Haar measure tools in quantum information: A beginner's tutorial}.
+\href{https://doi.org/10.22331/q-2024-05-08-1340}{\textit{Quantum} 8, 1340 (2024)}.}
+
+\cvpubitem{\sel L.~Bittel, \textbf{A.~A.~Mele}, J.~Eisert, L.~Leone.
+\emph{Optimal trace-distance bounds for free-fermionic states: Testing and improved tomography}.
+\href{https://doi.org/10.1103/pzx6-nkfb}{\textit{PRX Quantum} 6, 030341 (2025)}.}
+
+
+
+% ===== Additional publications =====
+
+\cvpubitem{L.~Bittel, J.~Eisert, W.~Gong, \textbf{A.~A.~Mele}, L.~Schatzki.
+\emph{Adaptivity is all you need: Optimal stabilizer learning using just single-copy measurements}.
+\href{https://arxiv.org/abs/2610.02031}{arXiv:2610.02031} (2026).}
+
+\cvpubitem{M.~Yaghubi Rad, R.~Puig, S.~Hassanandani, L.~Coffman, J.~Eisert, C.~Bravo-Prieto, \textbf{A.~A.~Mele}.
+\emph{Testing quantum Gaussianity with constant sample complexity}.
+\href{https://arxiv.org/abs/2609.40270}{arXiv:2609.40270} (2026).}
+
+\cvpubitem{ C.~Bravo-Prieto, W.~Gong, \textbf{A.~A.~Mele}.
+\emph{Quantum memory advantage for quantum process tomography}.
+\href{https://arxiv.org/abs/2607.13476}{arXiv:2607.13476} (2026).}
+
+\cvpubitem{A.~Angrisani, \textbf{A.~A.~Mele}, M.~S.~Rudolph, M.~Cerezo, Z.~Holmes.
+\emph{Simulating quantum circuits with arbitrary local noise using Pauli propagation}.
+\href{https://doi.org/10.1103/fb28-wlv2}{\textit{PRX Quantum} 7, 020313 (2026)}.}
+
+\cvpubitem{D.~Miller, K.~Levi, L.~Postler, A.~Steiner, L.~Bittel, G.~A.~L.~White, Y.~Tang, \textbf{A.~A.~Mele}, et al.
+\emph{Experimental measurement and a physical interpretation of quantum shadow enumerators}.
+\href{https://doi.org/10.1103/8h3b-brg1}{\textit{Physical Review Research} 8, 023318 (2026)} Editor suggestion.}
+
+\cvpubitem{A.~E.~Deneris, P.~Braccia, P.~Bermejo, N.~L.~Diaz, \textbf{A.~A.~Mele}, M.~Cerezo.
+\emph{Analyzing the free states of one quantum resource theory as resource states of another}.
+\href{https://doi.org/10.1002/qute.202500702}{\textit{Advanced Quantum Technologies} 9, e00702 (2026)}.}
+
+
+
+\cvpubitem{M.~Fanizza, V.~Iyer, J.~Lee, \textbf{A.~A.~Mele}, F.~A.~Mele.
+\emph{Efficient learning of bosonic Gaussian unitaries}.
+\href{https://arxiv.org/abs/2510.05531}{arXiv:2510.05531} (2025).}
+
+
+\cvpubitem{L.~Bittel, F.~A.~Mele, J.~Eisert, \textbf{A.~A.~Mele}.
+\emph{Energy-independent tomography of Gaussian states}.
+\href{https://arxiv.org/abs/2508.14979}{arXiv:2508.14979} (2025).}
+
+
+
+\cvpubitem{N.~L.~Diaz, \textbf{A.~A.~Mele}, P.~Bermejo, P.~Braccia, A.~E.~Deneris, M.~Larocca, M.~Cerezo.
+\emph{A unified approach to quantum resource theories and a new class of free operations}.
+\href{https://arxiv.org/abs/2507.10851}{arXiv:2507.10851} (2025).}
+
+\cvpubitem{P.~Bermejo, P.~Braccia, \textbf{A.~A.~Mele}, N.~L.~Diaz, A.~E.~Deneris, M.~Larocca, M.~Cerezo.
+\emph{Characterizing quantum resourcefulness via group-Fourier decompositions}.
+\href{https://arxiv.org/abs/2506.19696}{arXiv:2506.19696} (2025).}
+
+\cvpubitem{L.~Bittel, \textbf{A.~A.~Mele}, J.~Eisert, L.~Leone.
+\emph{PAC-learning of free-fermionic states is NP-hard}.
+\href{https://doi.org/10.22331/q-2025-03-20-1665}{\textit{Quantum} 9, 1665 (2025)}.}
+
+\cvpubitem{L.~Bittel, F.~A.~Mele, \textbf{A.~A.~Mele}, S.~Tirone, L.~Lami.
+\emph{Optimal estimates of trace distance between bosonic Gaussian states and applications to learning}.
+\href{https://doi.org/10.22331/q-2025-06-12-1769}{\textit{Quantum} 9, 1769 (2025)}.}
+
+\cvpubitem{M.~West, \textbf{A.~A.~Mele}, M.~Larocca, M.~Cerezo.
+\emph{Real classical shadows}.
+\href{https://doi.org/10.1088/1751-8121/addfc2}{\textit{Journal of Physics A: Mathematical and Theoretical} 58, 245304 (2025)}.}
+
+\cvpubitem{J.~Liu, F.~Wilde, \textbf{A.~A.~Mele}, X.~Jin, L.~Jiang, J.~Eisert.
+\emph{Stochastic noise can be helpful for variational quantum algorithms}.
+\href{https://doi.org/10.1103/PhysRevA.111.052441}{\textit{Physical Review A} 111, 052441 (2025)}.}
+
+\cvpubitem{M.~West, \textbf{A.~A.~Mele}, M.~Larocca, M.~Cerezo.
+\emph{Random ensembles of symplectic and unitary states are indistinguishable}.
+\href{https://arxiv.org/abs/2409.16500}{arXiv:2409.16500} (2024).}
+
+\cvpubitem{J.~Denzler, \textbf{A.~A.~Mele}, E.~Derbyshire, T.~Guaita, J.~Eisert.
+\emph{Learning fermionic correlations by evolving with random translationally invariant Hamiltonians}.
+\href{https://doi.org/10.1103/PhysRevLett.133.240604}{\textit{Physical Review Letters} 133, 240604 (2024)}.}
+
+\cvpubitem{J.~J.~Meyer, M.~Mularski, E.~Gil-Fuster, \textbf{A.~A.~Mele}, F.~Arzani, A.~Wilms, J.~Eisert.
+\emph{Exploiting symmetry in variational quantum machine learning}.
+\href{https://doi.org/10.1103/PRXQuantum.4.010328}{\textit{PRX Quantum} 4, 010328 (2023)}.}
+
+\cvpubitem{\textbf{A.~A.~Mele}, G.~B.~Mbeng, G.~E.~Santoro, M.~Collura, P.~Torta.
+\emph{Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian variational ansatz}.
+\href{https://doi.org/10.1103/PhysRevA.106.L060401}{\textit{Physical Review A} 106, L060401 (2022)}.}
+
+%----------------------------------------------------------------------------------------
+% TEACHING & INVITED LECTURES
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+% TEACHING & INVITED LECTURES
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+% TEACHING & INVITED LECTURES
+%----------------------------------------------------------------------------------------
+\section{\textbf{Teaching \& Invited Lectures}}
+
+\cvitem{05/2026}{
+\textbf{Invited Lecturer}, EPFL Bernoulli Center, Lausanne, Switzerland.
+\emph{Quantum Learning Theory for Bosonic and Fermionic Systems}
+(1.5-hour blackboard tutorial), delivered as part of the program
+\emph{Intersection of Quantum Learning Theory, Quantum Sensing, and Quantum Verification}.
+\href{https://bernoulli.epfl.ch/programs/intersection-of-quantum-learning-theory-quantum-sensing-and-quantum-verification/}{[program]}
+\href{https://antonioannamele.com/documents/EPFL_lecture.pdf}{[notes]}
+\href{https://mediaspace.epfl.ch/media/Tutorial+on+Learning+in+Bosonic+and+Fermionic+systems+-+Antonio+Mele/0_pqdhdnc5/31062}{[video]}}
+
+\cvitem{01/2026}{
+\textbf{Invited Lecturer}, 2026 QISCA Winter School.
+Lecture on \emph{Learning $t$-doped Fermionic and Bosonic Gaussian States},
+as part of
+\href{https://harris-junseo-lee.github.io/bosonic-learning-theory-winter26/}
+{\emph{Quantum Learning Theory for Bosonic and Fermionic Systems}}.
+\href{https://harris-junseo-lee.github.io/bosonic-learning-theory-winter26/}{[course]}
+\href{https://harris-junseo-lee.github.io/assets/pdf/BLT/Lecture3_Antonio.pdf}{[notes]}
+\href{https://youtu.be/tjAtRf_cpvM}{[video]}
+\href{https://doi.org/10.1103/PRXQuantum.6.010319}{[fermionic paper]}
+\href{https://doi.org/10.1038/s41567-025-03086-2}{[bosonic paper]}}
+
+\cvitem{10/2025}{
+\textbf{Invited Lecturer}, AIMS Workshop and School on
+\emph{The Theory of Quantum Learning Algorithms},
+Cape Town, South Africa.
+Four-hour tutorial on \emph{Haar Integration Tools in Quantum Information}.
+\href{https://aims-quantum-learning-and-testing.github.io/}{[program]}
+\href{https://quantum-journal.org/papers/q-2024-05-08-1340/}{[Haar tutorial]}}
+
+\cvitem{08/2025}{\textbf{Invited Lecturer}, QMATH Masterclass, University of Copenhagen (6 lectures). 
+\emph{Representation Theory in Quantum Information Science}. 
+3 lectures on representation theory (original lecture notes prepared for the masterclass: \href{https://antonioannamele.com/documents/QMATH_Basics_of_Representation_Theory_Mele.pdf}{PDF}); 3 lectures on Haar measure and Clifford commutant methods, based on \href{https://quantum-journal.org/papers/q-2024-05-08-1340/}{\emph{Quantum}} (2024) and \href{https://arxiv.org/abs/2504.12263}{arXiv:2504.12263}. 
+\href{https://qmath.ku.dk/events/conferences/representation-theory-in-quantum-information-science/}{(Masterclass link)}}
+
+\cvitem{2025}{
+\textbf{MSc Thesis Mentor}, Diego Polimeni.
+\emph{Rigorous End-to-End Fault-Tolerant Quantum Computation with Minimal Assumptions}.}
+
+\cvitem{2022--2023}{
+\textbf{Teaching Assistant}, \emph{Quantum Information Theory},
+Freie Universit\"at Berlin.
+Led exercise sessions and tutorials;
+\href{https://antonioannamele.com/teaching/}{[course materials]}.}
+
+ 
+
+%----------------------------------------------------------------------------------------
+% REVIEW ACTIVITY
+%----------------------------------------------------------------------------------------
+\section{\textbf{Academic Service}}
+
+\cvitem{Program Committees}{
+PC member for
+\href{https://qipconference.org/2025/}{QIP 2025},
+\href{https://qtml2025.cqt.sg/}{QTML 2025},
+\href{https://qctipconf.github.io/}{QCTiP 2026}, \href{https://qtml2026.nithecs.ac.za/}{QTML 2026} and (forthcoming)
+\href{https://qipconference.org/2027/}{QIP 2027}.}
+
+\cvitem{Refereeing}{
+Referee for QIP, TQC, QTML, and QCTiP over multiple years,
+as well as for physics journals.}
+
+%----------------------------------------------------------------------------------------
+% TALKS (INVITED / SELECTED)
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+% RESEARCH VISITS
+%----------------------------------------------------------------------------------------
+\section{\textbf{Research visits}}
+
+\cvitem{03/2026}{\textbf{California Institute of Technology (Caltech)}, Pasadena, USA. Hosted at IQIM by Hsin-Yuan (Robert) Huang and John Preskill.}
+
+\cvitem{02/2026}{\textbf{Massachusetts Institute of Technology (MIT)}, Cambridge, USA. Hosted at CTP by Soonwon Choi.}
+
+\cvitem{02/2026}{\textbf{Harvard University}, Cambridge, USA. Hosted at HQI by Susanne Yelin.}
+
+\cvitem{05/2025}{\textbf{Perimeter Institute for Theoretical Physics}, Waterloo, Canada. Hosted by Farzin Salek.}
+
+
+\section{\textbf{Talks}}
+\subsection{\textbf{Selected conference contributions}}
+
+%\cvitem{}{\small\emph{Also listing conference talks delivered by collaborators for coauthored works.}}
+\cvitem{01/2026}{\emph{A complete theory of the Clifford commutant and applications}. QIP 2026.}
+\cvitem{01/2026}{\emph{Efficient Learning Algorithms for Structured Bosonic and Fermionic Unitary Operators}. QIP 2026.}
+\cvitem{09/2025}{\emph{Pauli Propagation: A computational framework for simulating quantum systems}. QTML 2025.}
+\cvitem{09/2025}{\emph{A complete theory for the Clifford commutant}. TQC 2025.}
+\cvitem{02/2025}{\emph{Learning and testing quantum states of fermionic systems}. QIP 2025.}
+\cvitem{02/2025}{\emph{Tomography of bosonic systems and optimal estimates of the trace distance between Gaussian states}. QIP 2025.}
+\cvitem{04/2025}{\emph{Tomography of bosonic systems and optimal estimates of the trace distance between Gaussian states}. QCTiP 2025.}
+%\cvitem{09/2024}{\emph{Noise-induced shallow circuits and absence of barren plateaus}. CRC 2024.}
+\cvitem{09/2024}{\emph{Learning quantum states of continuous variable systems}. QTML 2024.}
+\cvitem{09/2024}{\emph{Learning quantum states of continuous variable systems}. TQC 2024.}
+\cvitem{09/2024}{\emph{Noise-induced shallow circuits and absence of barren plateaus}. TQC 2024.}
+\cvitem{08/2024}{\emph{Learning quantum states of continuous variable systems}. AQIS 2024.}
+\cvitem{08/2024}{\emph{Learning and testing possibly magical fermions}. AQIS 2024.}
+\cvitem{08/2024}{\emph{Noise-induced shallow circuits and absence of barren plateaus}. AQIS 2024.}
+\cvitem{11/2022}{\emph{Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz}. QTML 2022 (extended talk).}
+\cvitem{09/2022}{\emph{Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian Variational Ansatz}. DPG 2022.}
+\cvitem{09/2021}{\emph{Exploiting symmetry in variational quantum machine learning}. DPG 2021.}
+
+\subsection{\textbf{Selected invited talks}}
+\cvitem{10/2026}{
+Invited Speaker (forthcoming),
+\href{https://uwaterloo.ca/institute-for-quantum-computing/events/workshops/quantum-innovators}
+{\emph{Quantum Innovators Theory Workshop 2026}},
+Institute for Quantum Computing, University of Waterloo.
+Workshop bringing together early-career researchers making an impact on
+quantum information research.}
+\cvitem{05/2026}{\emph{Quantum Learning Theory for Bosonic and Fermionic Systems}, EPFL Bernoulli Center (program on \emph{Intersection of Quantum Learning Theory, Quantum Sensing, and Quantum Verification}). \href{https://bernoulli.epfl.ch/programs/intersection-of-quantum-learning-theory-quantum-sensing-and-quantum-verification/}{(link)}}
+\cvitem{03/2026}{\emph{Optimal learning of quantum channels in diamond distance}, Caltech IQIM Seminar.}
+
+\cvitem{02/2026}{\emph{Optimal learning of quantum channels in diamond distance}, MIT Quantum Seminar.}
+
+\cvitem{02/2026}{\emph{Optimal learning of quantum channels in diamond distance}, Harvard Quantum Seminar.}
+
+\cvitem{09/2025}{\emph{A complete theory for the Clifford commutant}, Los Alamos National Laboratory.}
+\cvitem{08/2025}{\emph{Invited lecturer at the QMATH Masterclass on Representation Theory in Quantum Information Science} (\href{https://qmath.ku.dk/events/conferences/representation-theory-in-quantum-information-science/}{masterclass link}), University of Copenhagen.}
+\cvitem{08/2025}{
+\textbf{TEDx Policoro}.
+\emph{Quantum Computer: una possibile rivoluzione},
+with Francesco A.~Mele.
+\href{https://www.youtube.com/watch?v=yzXUsDUPt8A}{[video]}
+\href{https://tedxpolicoro.it}{[event]}}
+\cvitem{07/2025}{\emph{Effect of noise in typical quantum circuits}, \emph{Understanding Quantum Machine Learning} workshop, Galileo Galilei Institute, Florence, Italy.}
+\cvitem{05/2025}{\emph{Learning and testing quantum states of fermionic systems}, Perimeter Institute for Theoretical Physics, Waterloo, Canada.}
+\cvitem{05/2025}{\emph{Effect of noise in typical quantum circuits}. The Higgs Centre for Theoretical Physics, Edinburgh, UK.}
+\cvitem{04/2025}{\emph{Effect of noise in typical quantum circuits}. Scuola Normale Superiore (SNS), Pisa, Italy.}
+\cvitem{09/2024}{\emph{Noise-induced shallow circuits and absence of barren plateaus}. Quantinuum.}
+\cvitem{04/2024}{\emph{Noise-induced shallow circuits and absence of barren plateaus}. Centre for Quantum Technologies, NUS.}
+\cvitem{04/2024}{\emph{Noise-induced shallow circuits and absence of barren plateaus}. BraQIIIT Lab, IIIT-Delhi.}
+
+%----------------------------------------------------------------------------------------
+% SCHOOLS & WORKSHOPS
+%----------------------------------------------------------------------------------------
+
+
+
+
+
+\section{\textbf{Schools and Workshops}}
+%\cvitem{01/2026}{\emph{\href{https://harris-junseo-lee.github.io/bosonic-learning-theory-winter26/}{Quantum Learning Theory for Bosonic and Fermionic Systems}}, 2026 QISCA Winter School Program, invited lecturer.}
+
+%\cvitem{11/2025}{\emph{\href{https://aims-quantum-learning-and-testing.github.io/}{The Theory of Quantum Learning Algorithms}}, AIMS, Cape Town, organizing committee and lecturer.}
+
+\cvitem{08/2025}{\emph{\href{https://qmath.ku.dk/events/conferences/representation-theory-in-quantum-information-science/}{QMATH Masterclass on Representation Theory in Quantum Information Science}}, University of Copenhagen, invited lecturer.}
+
+\cvitem{07/2025}{\emph{\href{https://www.quantum-randomness.com/clifford-workshop\#directions}{Workshop on the Clifford commutant}}, Cologne. Organized to discuss our \href{https://arxiv.org/abs/2504.12263}{work}.}
+
+\cvitem{07/2025}{\emph{\href{https://www.ggi.infn.it/showevent.pl?id=523}{Understanding Quantum Machine Learning}}, Galileo Galilei Institute, Florence, invited speaker.}
+
+\cvitem{05/2025}{\emph{\href{https://indico.ph.ed.ac.uk/event/343/}{Entanglement, Information and Complexity in Quantum Systems}}, Edinburgh, invited speaker.}
+\cvitem{06--08/2024}{\emph{Quantum Computing Summer School}, Los Alamos National Laboratory (acceptance ratio $<3\%$).}
+
+\cvitem{2022--2024}{
+QMATH Masterclasses: Entropy Inequalities (2022),
+Quantum Learning Theory (2023), and Quantum Simulation (2024),
+University of Copenhagen.}
+ 
+\cvitem{07/2023}{\emph{PCMI Graduate Summer School in Quantum Computation}, IAS/Park City.}
+ 
+
+%----------------------------------------------------------------------------------------
+% AWARDS & SCHOLARSHIPS
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+% THEORY, AI & SCIENTIFIC COMPUTING
+%----------------------------------------------------------------------------------------
+
+
+
+\section{\textbf{Awards \& Fellowships}}
+
+\cvitem{2027-Present}{
+\textbf{Simons Institute--Jane Street Circles Program}.
+Collaborative quantum algorithms project selected for funding in the Circles program co-hosted by the Simons Institute for the Theory of Computing and Jane Street, supporting four weeks of in-person research collaboration over two years.}
+
+
+\cvitem{2025-Present}{
+\textbf{Google PhD Fellowship in Quantum Computing}
+(US\$70,000/year in research support).
+Awarded by Google to “recognize outstanding graduate students doing exceptional and innovative research in areas relevant to computer science and related fields.”}
+
+\cvitem{2019}{\textbf{University of Trento--SISSA MSc Scholarship}. One of seven recipients, selected through a competitive examination in physics and mathematics. Included financial support and access to advanced PhD-level courses at International School for Advanced Studies (SISSA).}
+
+
+
+
+ 
+% THESES (OPTIONAL)
+%----------------------------------------------------------------------------------------
+\section{\textbf{Earlier Achievements}}
+
+\cvitem{2015}{
+\textbf{Italian Informatics Olympiad}.
+National finalist.}
+
+\cvitem{2015}{
+\textbf{IoStudio Award} (MIUR \& Samsung).
+Winner for developing an Android application for my high school.}
+\cvitem{2014–2016}{\textbf{Elected Student Body Representative}, Liceo Scientifico “Enrico Fermi” (Policoro, Italy) — two consecutive years; public speaking and organizing high school workshops and student activities.}
+\cvitem{MSc thesis}{\emph{Quantum Approximate Optimization Algorithm for Quantum Many-Body States Preparation}. Advisors: Mario Collura; Philipp H.J. Hauke.}
+\cvitem{BSc thesis}{\emph{How to break down quantum noise in a gravitational waves detector}. Advisor: Giancarlo Cella.}
+
+%%%%%%%%%%%%%%%%%%%
+\section{\textbf{Theory, AI \& Scientific Computing}}
+\cvitem{Theory}{
+Quantum information, quantum algorithms and complexity; broad mathematical background, with particular expertise in representation theory, probability theory, matrix analysis, and random matrix theory, and experience rapidly learning and applying new mathematical tools.}
+
+\cvitem{AI \& ML}{Learning theory and statistical inference, with particular emphasis on quantum learning; large language models for mathematical reasoning, scientific programming, and AI-assisted research.}
+
+\cvitem{Computing}{Python, Mathematica, C/C++; scientific computing and numerical linear algebra; algorithm implementation and numerical benchmarking; quantum-circuit and many-body simulation; Cirq, Qiskit, PennyLane.}
+
+\end{document}
