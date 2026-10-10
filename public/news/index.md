@@ -3,6 +3,7 @@
 ## Recent news
 
 #### October 2026
+- I was awarded the [**Federico Tonielli Award**](https://isue.it/federico-tonielli-award-isue/), to be conferred at a ceremony at the **Scuola Normale Superiore in Pisa** on 16 October 2026.
 - Our new work [***Adaptivity is all you need: Optimal stabilizer learning using just single-copy measurements***](https://arxiv.org/abs/2610.02031) is now available on arXiv.
 #### September 2026
 - Our new work [***Testing quantum Gaussianity with constant sample complexity***](https://arxiv.org/abs/2609.40270) is now available on arXiv.
@@ -71,3 +72,4 @@
 - **2024:** Our work [***Learning fermionic correlations by evolving with random translationally invariant Hamiltonians***](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.240604) was published in ***Physical Review Letters***.
 - **2024:** Our works ***Noise-induced shallow circuits and the absence of barren plateaus*** ([Slides](/documents/TQC_talk_noise.pdf) · [Video](https://www.youtube.com/watch?v=F1VMYeWC8O8)) and ***Learning quantum states of continuous-variable systems*** ([Video](https://www.youtube.com/watch?v=hGG4mIHl6e0&t=837s)) were presented as talks at **TQC 2024**.
 - **2024:** My tutorial [***Introduction to Haar Measure Tools in Quantum Information: A Beginner's Tutorial***](https://quantum-journal.org/papers/q-2024-05-08-1340/) was published in ***Quantum***.
+
