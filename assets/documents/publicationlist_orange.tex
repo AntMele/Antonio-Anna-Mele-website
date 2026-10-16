@@ -11,26 +11,14 @@
 \emergencystretch=1em
 \raggedbottom
 
-% ==== LINK COLOR TOGGLE ======================================
-% Flip this switch:
-\newif\ifusecaltechcolor
-%\usecaltechcolortrue      % <-- Caltech Orange ON
- \usecaltechcolorfalse    % <-- Black links (no accent)
-
+% --- Monochrome typography and unobtrusive, clickable links ---
 \usepackage{xcolor}
-\definecolor{CaltechOrange}{HTML}{FF6C0C}
-\definecolor{SoftGray}{HTML}{666666}
-
-\usepackage[colorlinks=true]{hyperref}
-
-\ifusecaltechcolor
-  \hypersetup{linkcolor=CaltechOrange,urlcolor=CaltechOrange,citecolor=CaltechOrange}
-  \newcommand{\RuleColor}{CaltechOrange}
-\else
-  \hypersetup{linkcolor=black,urlcolor=black,citecolor=black}
-  \newcommand{\RuleColor}{black}
-\fi
-% =============================================================
+\definecolor{SoftGray}{HTML}{555555}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{%
+  pdftitle={Publications (including preprints)},
+  pdfauthor={Antonio Anna Mele}%
+}
 
 % --- Discreet continuation header and page count ---
 \usepackage{fancyhdr,lastpage}
@@ -61,19 +49,19 @@
 
 % --- Header (no duplicate section title) ---
 \newcommand{\Header}{%
-  {\fontsize{18}{21}\selectfont\bfseries All Publications (including preprints)}\par
+  {\fontsize{16}{19}\selectfont\bfseries Antonio Anna Mele}\par
   \vspace{2pt}
-  {\normalsize \textit{Antonio Anna Mele --- Freie Universit\"at Berlin}}\par
+  {\normalsize Publications (including preprints)}\par
   \vspace{2pt}
   {\footnotesize\color{SoftGray}%
-  2025 Google PhD Fellow (Quantum Computing) \,|\,
+  Freie Universit\"at Berlin \,|\,
   \href{mailto:antoniomele.p@gmail.com}{antoniomele.p@gmail.com} \,|\,
   \href{https://antonioannamele.com/research/}{Website} \,|\,
   \href{https://scholar.google.com/citations?user=IgnTVy4AAAAJ&hl=en}{Google Scholar}
   }\par
   \vspace{3pt}
   {\footnotesize\color{SoftGray}Listed in reverse chronological order by publication, acceptance, or initial preprint date.}\par
-  \vspace{0.6em}\color{\RuleColor}\hrule height0.5pt\color{black}\vspace{0.4em}
+  \vspace{0.6em}\color{black}\hrule height0.5pt\vspace{0.4em}
 }
 
 % List sorted by most recent formal milestone, reverse chronologically.
