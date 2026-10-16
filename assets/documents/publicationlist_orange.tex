@@ -49,8 +49,10 @@
 
 % --- Header (no duplicate section title) ---
 \newcommand{\Header}{%
+  \begingroup
+  \setlength{\parindent}{0pt}%
   {\fontsize{16}{19}\selectfont\bfseries Antonio Anna Mele}%
-  \hspace{0.4em}{\normalsize (Google PhD Fellow)}\par
+  \hfill{\fontsize{10.5}{13}\selectfont\color{SoftGray}(Google PhD Fellow)}\par
   \vspace{2pt}
   {\normalsize Publications (including preprints)}\par
   \vspace{2pt}
@@ -63,6 +65,7 @@
   \vspace{3pt}
   {\footnotesize\color{SoftGray}Listed in reverse chronological order by publication, acceptance, or initial preprint date.}\par
   \vspace{0.6em}\color{black}\hrule height0.5pt\vspace{0.4em}
+  \endgroup
 }
 
 % List sorted by most recent formal milestone, reverse chronologically.
