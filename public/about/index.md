@@ -11,7 +11,7 @@ My research has focused on **quantum learning theory**—how can we efficiently 
 
 Looking ahead, I am increasingly interested in **quantum algorithms and quantum error correction**, with the goal of pushing quantum computing toward genuinely useful applications, particularly as increasingly capable **AI models enable previously unimaginable ways of doing research and accelerate the search for such applications**.
 
-For a quick overview of my research, see my [Federico Tonielli Award talk slides](/documents/Tonielli_2026_quantum_learning.pdf) (October 2026).
+For a quick overview of my research, see my [Tonielli Award talk slides](/documents/Tonielli_2026_quantum_learning.pdf) (October 2026).
 
 For a full list of publications, see my [Google Scholar profile](https://scholar.google.com/citations?user=IgnTVy4AAAAJ&hl=en).
 
