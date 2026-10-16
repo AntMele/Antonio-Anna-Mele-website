@@ -2,7 +2,7 @@
 
 > [**Curriculum Vitae (PDF)** :(fas fa-file-download):](/documents/CV_AntonioAnnaMele.pdf) &nbsp;|&nbsp; [**Google Scholar** :(fas fa-graduation-cap):](https://scholar.google.com/citations?user=IgnTVy4AAAAJ&hl=en) &nbsp;|&nbsp; [**arXiv**](https://arxiv.org/search/quant-ph?searchtype=author&query=Mele%2C+A+A) &nbsp;|&nbsp; [**ORCID** :(fab fa-orcid):](https://orcid.org/0000-0002-1009-7331)
 ---
-For a recent overview of my research and how it has developed, see the [slides from my Federico Tonielli Award talk](/documents/Tonielli_2026_quantum_learning.pdf).
+For a recent overview of my research, see the [slides from my Federico Tonielli Award talk](/documents/Tonielli_2026_quantum_learning.pdf).
 
 # Publications
 For a complete and continuously updated list, see my [Google Scholar profile](https://scholar.google.com/citations?user=IgnTVy4AAAAJ&hl=en).
