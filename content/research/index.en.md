@@ -49,6 +49,7 @@ For a complete and continuously updated list, see my [Google Scholar profile](ht
 # Talks
 Lecture notes and recordings from invited teaching are also collected on my [Teaching page](/teaching/).
 ## Invited seminars and lectures
+- **Federico Tonielli Award ceremony**, Scuola Normale Superiore, Pisa (16/10/2026) — *Learning and computation in quantum systems*. [Slides](/documents/Tonielli_2026_quantum_learning.pdf)
 - **Quantum Innovators 2026**, Institute for Quantum Computing, University of Waterloo (10/2026) — invited speaker at the [Quantum Innovators Theory Workshop](https://uwaterloo.ca/institute-for-quantum-computing/events/quantum-innovators-2026).
 - **EPFL Bernoulli Center** (05/2026) — *Quantum Learning Theory for Bosonic and Fermionic Systems*. [Program](https://bernoulli.epfl.ch/programs/intersection-of-quantum-learning-theory-quantum-sensing-and-quantum-verification/) · [Notes](/documents/EPFL_lecture.pdf) · [Video](https://mediaspace.epfl.ch/media/Tutorial+on+Learning+in+Bosonic+and+Fermionic+systems+-+Antonio+Mele/0_pqdhdnc5/31062)
 - **Caltech IQIM Seminar** (03/2026) — *Optimal learning of quantum channels in diamond distance*. [Slides](/documents/Slides_ChannelLearning.pdf)
