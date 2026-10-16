@@ -2,39 +2,41 @@
 
 > [**Curriculum Vitae (PDF)** :(fas fa-file-download):](/documents/CV_AntonioAnnaMele.pdf) &nbsp;|&nbsp; [**Google Scholar** :(fas fa-graduation-cap):](https://scholar.google.com/citations?user=IgnTVy4AAAAJ&hl=en) &nbsp;|&nbsp; [**arXiv**](https://arxiv.org/search/quant-ph?searchtype=author&query=Mele%2C+A+A) &nbsp;|&nbsp; [**ORCID** :(fab fa-orcid):](https://orcid.org/0000-0002-1009-7331)
 ---
+For a recent overview of my research and how it has developed, see the [slides from my Federico Tonielli Award talk](/documents/Tonielli_2026_quantum_learning.pdf).
+
 # Publications
 For a complete and continuously updated list, see my [Google Scholar profile](https://scholar.google.com/citations?user=IgnTVy4AAAAJ&hl=en).
-## Accepted / forthcoming
+## Selected publications
 - **A.A. Mele**, L. Bittel. **[Optimal learning of quantum channels in diamond distance](https://arxiv.org/abs/2512.10214)**. *Nature Physics*, accepted for publication (2026).
-## Published
-- L. Bittel, J. Eisert, L. Leone, **A.A. Mele**, S.F.E. Oliviero. **[A complete theory of the Clifford commutant](https://quantum-journal.org/papers/q-2026-07-22-2171/)**. *Quantum* **10**, 2171 (2026). [arXiv](https://arxiv.org/abs/2504.12263)
-- D. Miller, K. Levi, L. Postler, A. Steiner, L. Bittel, G.A.L. White, Y. Tang, E.J. Kuehnke, **A.A. Mele**, et al. **[Experimental measurement and a physical interpretation of quantum shadow enumerators](https://doi.org/10.1103/8h3b-brg1)**. *Physical Review Research* **8**, 023318 (2026). **Editors' Suggestion**. [arXiv](https://arxiv.org/abs/2408.16914)
-- A. Angrisani, **A.A. Mele**, M.S. Rudolph, M. Cerezo, Z. Holmes. **[Simulating quantum circuits with arbitrary local noise using Pauli propagation](https://doi.org/10.1103/fb28-wlv2)**. *PRX Quantum* **7**, 020313 (2026). [arXiv](https://arxiv.org/abs/2501.13101)
 - **A.A. Mele**, A. Angrisani, S. Ghosh, S. Khatri, J. Eisert, D.S. França, Y. Quek. **[Noise-induced shallow circuits and the absence of barren plateaus](https://www.nature.com/articles/s41567-026-03245-z)**. *Nature Physics* **22**, 751–756 (2026). [arXiv](https://arxiv.org/abs/2403.13927)
-- A.E. Deneris, P. Braccia, P. Bermejo, N.L. Diaz, **A.A. Mele**, M. Cerezo. **[Analyzing the free states of one quantum resource theory as resource states of another](https://doi.org/10.1002/qute.202500702)**. *Advanced Quantum Technologies* **9**, e00702 (2026).
 - F.A. Mele, **A.A. Mele**, L. Bittel, J. Eisert, V. Giovannetti, L. Lami, L. Leone, S.F.E. Oliviero. **[Learning quantum states of continuous-variable systems](https://www.nature.com/articles/s41567-025-03086-2)**. *Nature Physics* **21**, 2002–2008 (2025). [arXiv](https://arxiv.org/abs/2405.01431)
+- **A.A. Mele**, F.A. Mele, J.R. McClean, T.E. O'Brien. **[Towards verifiable quantum advantage with random circuits: Observables that survive concentration](https://arxiv.org/abs/2609.37890)**. arXiv:2609.37890 (2026).
+- **A.A. Mele**, Y. Herasymenko. **[Efficient learning of quantum states prepared with few fermionic non-Gaussian gates](https://doi.org/10.1103/PRXQuantum.6.010319)**. *PRX Quantum* **6**, 010319 (2025). [arXiv](https://arxiv.org/abs/2402.18665)
+- **A.A. Mele**. **[Introduction to Haar measure tools in quantum information: A beginner's tutorial](https://quantum-journal.org/papers/q-2024-05-08-1340/)**. *Quantum* **8**, 1340 (2024).
+- S. Chen, **A.A. Mele**, F.A. Mele, J. Preskill. **[When are bosonic Gaussian states classical to learn?](https://arxiv.org/abs/2609.26705)**. arXiv:2609.26705 (2026).
+- T. Parella-Dilmé, J. Barberà-Rodríguez, S.F.E. Oliviero, **A.A. Mele**. **[Strong unitary designs in optimal depth and space](https://arxiv.org/abs/2608.13491)**. arXiv:2608.13491 (2026).
+- L. Bittel, J. Eisert, L. Leone, **A.A. Mele**, S.F.E. Oliviero. **[A complete theory of the Clifford commutant](https://quantum-journal.org/papers/q-2026-07-22-2171/)**. *Quantum* **10**, 2171 (2026). [arXiv](https://arxiv.org/abs/2504.12263)
+- A. Angrisani, **A.A. Mele**, M.S. Rudolph, M. Cerezo, Z. Holmes. **[Simulating quantum circuits with arbitrary local noise using Pauli propagation](https://doi.org/10.1103/fb28-wlv2)**. *PRX Quantum* **7**, 020313 (2026). [arXiv](https://arxiv.org/abs/2501.13101)
 - L. Bittel, **A.A. Mele**, J. Eisert, L. Leone. **[Optimal trace-distance bounds for free-fermionic states: Testing and improved tomography](https://doi.org/10.1103/pzx6-nkfb)**. *PRX Quantum* **6**, 030341 (2025). [arXiv](https://arxiv.org/abs/2409.17953)
+- L. Bittel, F.A. Mele, J. Eisert, **A.A. Mele**. **[Energy-independent tomography of Gaussian states](https://arxiv.org/abs/2508.14979)**. arXiv:2508.14979 (2025).
+
+## Additional publications
+- L. Bittel, J. Eisert, W. Gong, **A.A. Mele**, L. Schatzki. **[Adaptivity is all you need: Optimal stabilizer learning using just single-copy measurements](https://arxiv.org/abs/2610.02031)**. arXiv:2610.02031 (2026).
+- M. Yaghubi Rad, R. Puig, S. Hassanandani, L. Coffman, J. Eisert, C. Bravo-Prieto, **A.A. Mele**. **[Testing quantum Gaussianity with constant sample complexity](https://arxiv.org/abs/2609.40270)**. arXiv:2609.40270 (2026).
+- C. Bravo-Prieto, W. Gong, **A.A. Mele**. **[Quantum memory advantage for quantum process tomography](https://arxiv.org/abs/2607.13476)**. arXiv:2607.13476 (2026).
+- D. Miller, K. Levi, L. Postler, A. Steiner, L. Bittel, G.A.L. White, Y. Tang, E.J. Kuehnke, **A.A. Mele**, et al. **[Experimental measurement and a physical interpretation of quantum shadow enumerators](https://doi.org/10.1103/8h3b-brg1)**. *Physical Review Research* **8**, 023318 (2026). **Editors' Suggestion**. [arXiv](https://arxiv.org/abs/2408.16914)
+- A.E. Deneris, P. Braccia, P. Bermejo, N.L. Diaz, **A.A. Mele**, M. Cerezo. **[Analyzing the free states of one quantum resource theory as resource states of another](https://doi.org/10.1002/qute.202500702)**. *Advanced Quantum Technologies* **9**, e00702 (2026).
+- M. Fanizza, V. Iyer, J. Lee, **A.A. Mele**, F.A. Mele. **[Efficient learning of bosonic Gaussian unitaries](https://arxiv.org/abs/2510.05531)**. arXiv:2510.05531 (2025).
+- N.L. Diaz, **A.A. Mele**, P. Bermejo, P. Braccia, A.E. Deneris, M. Larocca, M. Cerezo. **[A unified approach to quantum resource theories and a new class of free operations](https://arxiv.org/abs/2507.10851)**. arXiv:2507.10851 (2025).
+- P. Bermejo, P. Braccia, **A.A. Mele**, N.L. Diaz, A.E. Deneris, M. Larocca, M. Cerezo. **[Characterizing quantum resourcefulness via group-Fourier decompositions](https://arxiv.org/abs/2506.19696)**. arXiv:2506.19696 (2025).
 - L. Bittel, F.A. Mele, **A.A. Mele**, S. Tirone, L. Lami. **[Optimal estimates of trace distance between bosonic Gaussian states and applications to learning](https://quantum-journal.org/papers/q-2025-06-12-1769/)**. *Quantum* **9**, 1769 (2025). [arXiv](https://arxiv.org/abs/2411.02368)
 - M. West, **A.A. Mele**, M. Larocca, M. Cerezo. **[Real classical shadows](https://doi.org/10.1088/1751-8121/addfc2)**. *Journal of Physics A: Mathematical and Theoretical* **58**, 245304 (2025). [arXiv](https://arxiv.org/abs/2410.23481)
 - J. Liu, F. Wilde, **A.A. Mele**, X. Jin, L. Jiang, J. Eisert. **[Stochastic noise can be helpful for variational quantum algorithms](https://doi.org/10.1103/PhysRevA.111.052441)**. *Physical Review A* **111**, 052441 (2025). [arXiv](https://arxiv.org/abs/2210.06723)
 - L. Bittel, **A.A. Mele**, J. Eisert, L. Leone. **[PAC-learning of free-fermionic states is NP-hard](https://quantum-journal.org/papers/q-2025-03-20-1665/)**. *Quantum* **9**, 1665 (2025). [arXiv](https://arxiv.org/abs/2404.03585)
-- **A.A. Mele**, Y. Herasymenko. **[Efficient learning of quantum states prepared with few fermionic non-Gaussian gates](https://doi.org/10.1103/PRXQuantum.6.010319)**. *PRX Quantum* **6**, 010319 (2025). [arXiv](https://arxiv.org/abs/2402.18665)
 - J. Denzler, **A.A. Mele**, E. Derbyshire, T. Guaita, J. Eisert. **[Learning fermionic correlations by evolving with random translationally invariant Hamiltonians](https://doi.org/10.1103/PhysRevLett.133.240604)**. *Physical Review Letters* **133**, 240604 (2024). [arXiv](https://arxiv.org/abs/2309.12933)
-- **A.A. Mele**. **[Introduction to Haar measure tools in quantum information: A beginner's tutorial](https://quantum-journal.org/papers/q-2024-05-08-1340/)**. *Quantum* **8**, 1340 (2024).
+- M. West, **A.A. Mele**, M. Larocca, M. Cerezo. **[Random ensembles of symplectic and unitary states are indistinguishable](https://arxiv.org/abs/2409.16500)**. arXiv:2409.16500 (2024).
 - J.J. Meyer, M. Mularski, E. Gil-Fuster, **A.A. Mele**, F. Arzani, A. Wilms, J. Eisert. **[Exploiting symmetry in variational quantum machine learning](https://doi.org/10.1103/PRXQuantum.4.010328)**. *PRX Quantum* **4**, 010328 (2023). [arXiv](https://arxiv.org/abs/2205.06217)
 - **A.A. Mele**, G.B. Mbeng, G.E. Santoro, M. Collura, P. Torta. **[Avoiding barren plateaus via transferability of smooth solutions in Hamiltonian variational ansatz](https://doi.org/10.1103/PhysRevA.106.L060401)**. *Physical Review A* **106**, L060401 (2022). [arXiv](https://arxiv.org/abs/2206.01982)
-## Preprints
-- L. Bittel, J. Eisert, W. Gong, **A.A. Mele**, L. Schatzki. **[Adaptivity is all you need: Optimal stabilizer learning using just single-copy measurements](https://arxiv.org/abs/2610.02031)**. arXiv:2610.02031 (2026).
-- M. Yaghubi Rad, R. Puig, S. Hassanandani, L. Coffman, J. Eisert, C. Bravo-Prieto, **A.A. Mele**. **[Testing quantum Gaussianity with constant sample complexity](https://arxiv.org/abs/2609.40270)**. arXiv:2609.40270 (2026).
-- **A.A. Mele**, F.A. Mele, J.R. McClean, T.E. O'Brien. **[Towards verifiable quantum advantage with random circuits: Observables that survive concentration](https://arxiv.org/abs/2609.37890)**. arXiv:2609.37890 (2026).
-- S. Chen, **A.A. Mele**, F.A. Mele, J. Preskill. **[When are bosonic Gaussian states classical to learn?](https://arxiv.org/abs/2609.26705)**. arXiv:2609.26705 (2026).
-- T. Parella-Dilmé, J. Barberà-Rodríguez, S.F.E. Oliviero, **A.A. Mele**. **[Strong unitary designs in optimal depth and space](https://arxiv.org/abs/2608.13491)**. arXiv:2608.13491 (2026).
-- C. Bravo-Prieto, W. Gong, **A.A. Mele**. **[Quantum memory advantage for quantum process tomography](https://arxiv.org/abs/2607.13476)**. arXiv:2607.13476 (2026).
-- M. Fanizza, V. Iyer, J. Lee, **A.A. Mele**, F.A. Mele. **[Efficient learning of bosonic Gaussian unitaries](https://arxiv.org/abs/2510.05531)**. arXiv:2510.05531 (2025).
-- L. Bittel, F.A. Mele, J. Eisert, **A.A. Mele**. **[Energy-independent tomography of Gaussian states](https://arxiv.org/abs/2508.14979)**. arXiv:2508.14979 (2025).
-- N.L. Diaz, **A.A. Mele**, P. Bermejo, P. Braccia, A.E. Deneris, M. Larocca, M. Cerezo. **[A unified approach to quantum resource theories and a new class of free operations](https://arxiv.org/abs/2507.10851)**. arXiv:2507.10851 (2025).
-- P. Bermejo, P. Braccia, **A.A. Mele**, N.L. Diaz, A.E. Deneris, M. Larocca, M. Cerezo. **[Characterizing quantum resourcefulness via group-Fourier decompositions](https://arxiv.org/abs/2506.19696)**. arXiv:2506.19696 (2025).
-- M. West, **A.A. Mele**, M. Larocca, M. Cerezo. **[Random ensembles of symplectic and unitary states are indistinguishable](https://arxiv.org/abs/2409.16500)**. arXiv:2409.16500 (2024).
 ---
 # Research experience
 - **Google Quantum AI**, Summer Researcher, Los Angeles, CA, USA, 2026. Mentor: [Jarrod McClean](https://scholar.google.com/citations?user=yVy2ZIwAAAAJ&hl=en).
