@@ -1,6 +1,7 @@
 ## Recent news
 
 #### October 2026
+- I was selected by Anthropic for research support through its **AI for Science Program**.
 - I received the [**Federico Tonielli Award**](https://isue.it/federico-tonielli-award-isue/) and gave a talk on ***Learning and computation in quantum systems*** at the award ceremony at the **Scuola Normale Superiore in Pisa** on 16 October 2026. [Slides](/documents/Tonielli_2026_quantum_learning.pdf)
 - Our new work [***Adaptivity is all you need: Optimal stabilizer learning using just single-copy measurements***](https://arxiv.org/abs/2610.02031) is now available on arXiv.
 #### September 2026
