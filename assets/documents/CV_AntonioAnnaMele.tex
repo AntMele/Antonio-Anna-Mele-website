@@ -68,7 +68,12 @@
 % Pull the header up from the very top and tighten below the title
 \vspace*{-1.0cm}
 \makecvtitle
-\vspace*{-0.8\baselineskip}
+% Keep the same compact gap with local and Overleaf ModernCV versions.
+\makeatletter
+\@ifpackagelater{moderncvheadi}{2024/07/17}
+  {\vspace*{-1.8\baselineskip}}
+  {\vspace*{-2.6\baselineskip}}
+\makeatother
 
 %----------------------------------------------------------------------------------------
 % SHORT PROFILE & RESEARCH INTERESTS
@@ -112,7 +117,7 @@
 %\section{Publications {\normalsize(\href{https://scholar.google.com/citations?user=IgnTVy4AAAAJ&hl}{Google Scholar}, $\ge$1100 citations, h-index~14, including preprints)}}
 
 % Google Scholar metrics verified on 6 October 2026; recheck before each application.
-\section{Publications {\normalsize(\href{https://scholar.google.com/citations?user=IgnTVy4AAAAJ&hl=en}{Google Scholar}, $1{,}600$ citations, h-index~17; selected papers marked with $\star$)}}
+\section{Publications {\normalsize(\href{https://scholar.google.com/citations?user=IgnTVy4AAAAJ&hl=en}{Google Scholar}, $>1{,}600$ citations, h-index~17; selected papers marked with $\star$)}}
 
 % ===== Selected publications =====
 
@@ -380,6 +385,7 @@ Awarded by Google to “recognize outstanding graduate students doing exceptiona
 \cvitem{09/2021}{\emph{Exploiting symmetry in variational quantum machine learning}. DPG 2021.}
 
 \subsection{\textbf{Selected invited talks}}
+\cvitem{10/2026}{\emph{Learning and computation in quantum systems}, Federico Tonielli Award ceremony, Scuola Normale Superiore, Pisa (16 October 2026). \href{https://antonioannamele.com/documents/Tonielli_2026_quantum_learning.pdf}{[slides]}}
 \cvitem{10/2026}{
 Invited Speaker (forthcoming),
 \href{https://uwaterloo.ca/institute-for-quantum-computing/events/workshops/quantum-innovators}
