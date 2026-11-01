@@ -9,11 +9,35 @@ import tempfile
 import unittest
 from unittest.mock import patch
 
+from build_bandwidth_preview import supported_hugo_version
 from prepare_hosting_config import file_hashes, prepare_config
 from verify_site_build import PORTRAIT, PUBLIC_STATEMENT, verify_site
 
 # A deliberately fake fixture: production filenames and URLs must not enter Git.
 UNLISTED = "documents/research-statement-0123456789abcdef01234567.pdf"
+
+
+class HugoVersionTests(unittest.TestCase):
+    def test_homebrew_extended_version_is_accepted(self):
+        self.assertTrue(supported_hugo_version("hugo v0.107.0+extended darwin/arm64 BuildDate=unknown VendorInfo=brew\n"))
+
+    def test_official_linux_extended_version_is_accepted(self):
+        self.assertTrue(supported_hugo_version("hugo v0.107.0-2221b5b30a285d01220a26a82305906ad3291880+extended linux/amd64 BuildDate=2022-10-20T13:09:36Z VendorInfo=gohugoio\n"))
+
+    def test_other_versions_and_nonextended_builds_are_rejected(self):
+        for version in (
+            "hugo v0.108.0+extended linux/amd64",
+            "hugo v0.107.1+extended darwin/arm64",
+            "hugo v0.107.0 linux/amd64",
+            "hugo v0.107.0-2221b5b30a285d01220a26a82305906ad3291880 linux/amd64",
+        ):
+            with self.subTest(version=version):
+                self.assertFalse(supported_hugo_version(version))
+
+    def test_unrecognized_suffixes_are_rejected(self):
+        for version in ("hugo v0.107.0-custom+extended linux/amd64", "hugo v0.107.0+extendedfoo linux/amd64"):
+            with self.subTest(version=version):
+                self.assertFalse(supported_hugo_version(version))
 
 
 class DeploymentValidationTests(unittest.TestCase):

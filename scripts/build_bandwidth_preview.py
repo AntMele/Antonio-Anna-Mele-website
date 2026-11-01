@@ -19,6 +19,12 @@ ROOT = Path(__file__).resolve().parent.parent
 HUGO_VERSION = "0.107.0"
 
 
+def supported_hugo_version(version):
+    # Official release binaries include a commit suffix; Homebrew may omit it.
+    pattern = r"^hugo v" + re.escape(HUGO_VERSION) + r"(?:-[0-9a-f]{40})?\+extended(?:\s|$)"
+    return re.search(pattern, version.strip()) is not None
+
+
 def inventory(root):
     return {p.relative_to(root).as_posix(): p for p in root.rglob("*")
             if p.is_file() and not any(part.startswith(".") for part in p.relative_to(root).parts)}
@@ -39,7 +45,7 @@ def build_site(destination, root=ROOT, public_only=False):
     if destination == root or destination in root.parents or root in destination.parents:
         raise ValueError("The preview destination must be outside the repository.")
     version = subprocess.check_output(["hugo", "version"], text=True)
-    if not re.search(r"\bv" + re.escape(HUGO_VERSION) + r"\+extended\b", version):
+    if not supported_hugo_version(version):
         raise RuntimeError(f"Use Hugo extended {HUGO_VERSION}; found {version.strip()}")
 
     public = root / "public"

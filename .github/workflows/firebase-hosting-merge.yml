@@ -52,7 +52,7 @@ jobs:
           PRIVATE_DOCUMENT_PART_10: '${{ secrets.PRIVATE_DOCUMENT_PART_10 }}'
           PRIVATE_DOCUMENT_PART_11: '${{ secrets.PRIVATE_DOCUMENT_PART_11 }}'
           PRIVATE_DOCUMENT_PART_12: '${{ secrets.PRIVATE_DOCUMENT_PART_12 }}'
-          PRIVATE_DOCUMENT_PART_COUNT: '${{ secrets.PRIVATE_DOCUMENT_PART_COUNT }}'
+          PRIVATE_DOCUMENT_PART_COUNT: '${{ vars.PRIVATE_DOCUMENT_PART_COUNT }}'
           PRIVATE_DOCUMENT_BUNDLE_SHA256: '${{ secrets.PRIVATE_DOCUMENT_BUNDLE_SHA256 }}'
         run: python3 scripts/restore_private_document.py --root "$CONTENT_DIR" --manifest .firebase-ci/private-document.json
       - name: Verify the complete production release
