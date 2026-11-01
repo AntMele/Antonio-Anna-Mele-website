@@ -15,11 +15,11 @@ math:
 
 I am a PhD student in the [Quantum Information group of Jens Eisert](https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/index.html) at Freie Universität Berlin, and a [2025 Google PhD Fellow in Quantum Computing](https://research.google/programs-and-events/phd-fellowship/), a programme that "recognizes outstanding graduate students doing exceptional and innovative research in areas relevant to computer science and related fields."
 
-My research has focused on **quantum learning theory**—how can we efficiently extract useful information, or learn a compact classical model, from a complex quantum system?—as well as on the impact of noise on quantum circuits and their classical simulability. My work has also uncovered mathematical structures underlying quantum systems, from Gaussian and non-Gaussian bosonic and fermionic systems to Clifford symmetries and random unitaries.
+Broadly, my research so far has been guided by the question: **In our quantum world, how far can we push learning and computation?** I explored this question across a broad range of systems central to physics and quantum computing, from qubits and noisy quantum circuits to bosonic and fermionic systems.
 
-Looking ahead, I am increasingly interested in **quantum algorithms and quantum error correction**, with the goal of pushing quantum computing toward genuinely useful applications, particularly as increasingly capable **AI models enable previously unimaginable ways of doing research and accelerate the search for such applications**.
+Looking ahead, I aim to advance **quantum algorithms, learning, and quantum error correction** and push quantum computing toward genuinely useful applications, particularly as increasingly capable **AI models enable previously unimaginable ways of doing research and accelerate the search for such applications**.
 
-For a quick overview of my research, see my [Tonielli Award talk slides](/documents/Tonielli_2026_quantum_learning.pdf) (October 2026).
+{{< research-statement >}}
 
 For a full list of publications, see my [Google Scholar profile](https://scholar.google.com/citations?user=IgnTVy4AAAAJ&hl=en).
 

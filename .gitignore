@@ -1,0 +1,9 @@
+.firebase-ci/
+__pycache__/
+*.pyc
+.firebase/
+.DS_Store
+output/
+resources/_gen/
+**/research-statement-*.pdf
+.private-hosting/

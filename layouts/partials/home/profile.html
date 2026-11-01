@@ -1,9 +1,16 @@
 {{- $profile := .Site.Params.home.profile -}}
 
+{{- /* The profile-only homepage has no equations; retain maths on other pages. */ -}}
+{{- if .IsHome -}}
+    {{- .Scratch.Set "params" (merge (.Scratch.Get "params") (dict "math" false)) -}}
+{{- end -}}
+
 <div id="tsparticles"></div>
 
-<script src="/js/tsparticles.min.js"></script>
-<script src="/js/app.js"></script>
+{{- range slice "js/tsparticles.min.js" "js/app.js" -}}
+    {{- $script := resources.Get . | fingerprint "sha256" -}}
+    <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" crossorigin="anonymous"></script>
+{{- end -}}
 
 <div class="home-profile">
 

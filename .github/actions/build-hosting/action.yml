@@ -1,0 +1,38 @@
+name: Build and verify public Hosting content
+description: Build and validate public content without accessing production secrets.
+runs:
+  using: composite
+  steps:
+    - name: Install the reviewed Hugo version
+      uses: peaceiris/actions-hugo@6b1ee2dcc06c9b6629a5317fa0146473914d05e1 # v3
+      with:
+        hugo-version: '0.107.0'
+        extended: true
+    - name: Set up Node for the Firebase emulator
+      uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+      with:
+        node-version: '22'
+        package-manager-cache: false
+    - name: Install the reviewed Firebase CLI
+      shell: bash
+      run: npm install --global firebase-tools@13.29.1
+    - name: Test the deployment checks
+      shell: bash
+      run: python3 -m unittest discover -s scripts -p 'test_*.py' -v
+    - name: Build public content from source
+      shell: bash
+      run: python3 scripts/build_bandwidth_preview.py --public-only --destination "$RUNNER_TEMP/mele-hosting-content"
+    - name: Verify public URLs, PDF source bytes, hashes and SRI
+      shell: bash
+      run: python3 scripts/verify_site_build.py --public-only --root "$RUNNER_TEMP/mele-hosting-content"
+    - name: Copy the verified release inside its isolated Firebase project
+      shell: bash
+      run: python3 scripts/prepare_hosting_config.py --root "$RUNNER_TEMP/mele-hosting-content" --output .firebase-ci/firebase.json --emulator
+    - name: Verify actual Hosting response headers
+      shell: bash
+      env:
+        FIREBASE_CLI_DISABLE_UPDATE_CHECK: '1'
+      run: >-
+        firebase emulators:exec --only hosting --project demo-mele-ci
+        --config .firebase-ci/firebase.json
+        'python3 scripts/verify_hosting_cache.py --public-only --root "$RUNNER_TEMP/mele-hosting-content" --url http://127.0.0.1:1341'
