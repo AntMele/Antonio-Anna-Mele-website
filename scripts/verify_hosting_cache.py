@@ -14,6 +14,7 @@ import re
 from private_documents import find_private_documents, redact_private_text
 import urllib.error
 import urllib.request
+from urllib.parse import urlsplit, parse_qsl
 
 
 parser = argparse.ArgumentParser(description=__doc__)
@@ -78,12 +79,22 @@ try:
     results = []
     redirects = {r["source"]: r for r in config["hosting"].get("redirects", []) if "source" in r}
     redirect_results = []
+    is_emulator = urlsplit(args.url).hostname in ("localhost", "127.0.0.1", "::1")
     for path, rule in redirects.items():
         with request(path) as response:
             assert response.status == rule["type"], (path, response.status)
-            assert response.headers.get("Location") == rule["destination"], (path, "Wrong redirect destination")
-            assert response.headers.get("Cache-Control") == fresh, (path, "Redirect must revalidate")
-            redirect_results.append({"path": path, "status": response.status, "destination": rule["destination"]})
+            actual_location = urlsplit(response.headers.get("Location", ""))
+            expected_location = urlsplit(rule["destination"])
+            # Firebase's emulator appends an empty '&' to destinations with a query.
+            assert (actual_location._replace(query="") == expected_location._replace(query="")
+                    and parse_qsl(actual_location.query, keep_blank_values=True)
+                    == parse_qsl(expected_location.query, keep_blank_values=True)), (path, "Wrong redirect destination")
+            redirect_cache = response.headers.get("Cache-Control")
+            # Firebase CLI 13.29.1 omits custom headers on emulator redirects.
+            # Production must still send the exact revalidation policy.
+            assert redirect_cache == fresh or (is_emulator and redirect_cache is None), (path, "Redirect must revalidate")
+            redirect_results.append({"path": path, "status": response.status,
+                                     "destination": rule["destination"], "cache_control": redirect_cache})
     fresh_paths = [path for path in fresh_paths if path not in redirects]
     for path in fresh_paths + private_paths + hashed_paths:
         expected = immutable if path in hashed_paths else fresh
@@ -108,6 +119,7 @@ try:
         "sha256_assets_verified": len(hashed_paths),
         "headers": results,
         "redirects": redirect_results,
+        "redirect_cache_note": "The emulator may omit redirect headers; production checks require revalidation.",
         "conditional_requests": conditional_results,
         "conditional_note": "The local emulator may return 200 for matching ETags; inspect these statuses separately. Header checks do not prove production 304 behavior.",
     }, indent=2)))
