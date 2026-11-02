@@ -20,9 +20,11 @@ parser = argparse.ArgumentParser(description=__doc__)
 parser.add_argument("--root", type=Path, required=True)
 parser.add_argument("--url", default="http://127.0.0.1:1339")
 parser.add_argument("--public-only", action="store_true")
+parser.add_argument("--config", type=Path,
+                    default=Path(__file__).resolve().parent.parent / "firebase.json")
 args = parser.parse_args()
 try:
-    config = json.loads((Path(__file__).resolve().parent.parent / "firebase.json").read_text())
+    config = json.loads(args.config.read_text())
     immutable_rule = next(rule for rule in config["hosting"]["headers"] if "regex" in rule)
     pattern = re.compile(immutable_rule["regex"])
     immutable = "public, max-age=31536000, immutable"
@@ -43,10 +45,16 @@ try:
         assert not pattern.fullmatch(path), path
 
 
+    class NoRedirect(urllib.request.HTTPRedirectHandler):
+        def redirect_request(self, req, fp, code, msg, headers, newurl):
+            return None
+
+    opener = urllib.request.build_opener(NoRedirect)
+
     def request(path, headers=None):
         req = urllib.request.Request(args.url.rstrip("/") + path, method="HEAD", headers=headers or {})
         try:
-            return urllib.request.urlopen(req)
+            return opener.open(req, timeout=30)
         except urllib.error.HTTPError as exc:
             return exc
 
@@ -68,6 +76,14 @@ try:
         "/documents/Slides_ChannelLearning.pdf",
     ]
     results = []
+    redirects = {r["source"]: r for r in config["hosting"].get("redirects", []) if "source" in r}
+    redirect_results = []
+    for path, rule in redirects.items():
+        with request(path) as response:
+            assert response.status == rule["type"], (path, response.status)
+            assert response.headers.get("Location") == rule["destination"], (path, "Wrong redirect destination")
+            redirect_results.append({"path": path, "status": response.status, "destination": rule["destination"]})
+    fresh_paths = [path for path in fresh_paths if path not in redirects]
     for path in fresh_paths + private_paths + hashed_paths:
         expected = immutable if path in hashed_paths else fresh
         with request(path) as response:
@@ -90,6 +106,7 @@ try:
     print(redact_private_text(json.dumps({
         "sha256_assets_verified": len(hashed_paths),
         "headers": results,
+        "redirects": redirect_results,
         "conditional_requests": conditional_results,
         "conditional_note": "The local emulator may return 200 for matching ETags; inspect these statuses separately. Header checks do not prove production 304 behavior.",
     }, indent=2)))

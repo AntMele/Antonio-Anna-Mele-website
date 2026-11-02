@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 import shutil
 import tempfile
+from urllib.parse import urlsplit
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -24,7 +25,7 @@ def file_hashes(root):
     return hashes
 
 
-def prepare_config(root, output, emulator=False, source_root=ROOT):
+def prepare_config(root, output, emulator=False, source_root=ROOT, preview_download_origin=None):
     root, output = root.resolve(), output.resolve()
     if output == source_root.resolve() / "firebase.json":
         raise ValueError("Use a separate config; the production firebase.json is never overwritten.")
@@ -34,6 +35,18 @@ def prepare_config(root, output, emulator=False, source_root=ROOT):
         raise ValueError("The generated config must be outside the published content directory.")
 
     config = json.loads((source_root / "firebase.json").read_text())
+    if preview_download_origin:
+        parsed = urlsplit(preview_download_origin)
+        if (not emulator or parsed.scheme != "http" or parsed.hostname not in ("localhost", "127.0.0.1")
+                or parsed.username or parsed.password or parsed.path not in ("", "/")
+                or parsed.query or parsed.fragment):
+            raise ValueError("A download preview override requires the emulator and a loopback HTTP origin.")
+        from hosting_downloads import load_downloads
+        downloads = load_downloads(source_root)
+        base = downloads["base_url"].rstrip("/") + "/"
+        for rule in config["hosting"].get("redirects", []):
+            if rule["destination"].startswith(base):
+                rule["destination"] = preview_download_origin.rstrip("/") + "/" + rule["destination"][len(base):]
     output.parent.mkdir(parents=True, exist_ok=True)
     if output.parent not in root.parents:
         # The emulator permits ../public paths that production deployment rejects.
@@ -63,8 +76,10 @@ def main():
     parser.add_argument("--root", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--emulator", action="store_true")
+    parser.add_argument("--preview-download-origin", help="Local public-PDF server for preview only")
     args = parser.parse_args()
-    print(prepare_config(args.root, args.output, args.emulator))
+    print(prepare_config(args.root, args.output, args.emulator,
+                         preview_download_origin=args.preview_download_origin))
 
 
 if __name__ == "__main__":

@@ -1,0 +1,500 @@
+{
+  "repository": "AntMele/Antonio-Anna-Mele-website",
+  "base_url": "https://antmele.github.io/Antonio-Anna-Mele-website",
+  "documents": [
+    {
+      "source": "assets/documents/Classical_InfoTheory_Mele.pdf",
+      "asset": "Classical_InfoTheory_Mele.pdf",
+      "size": 3249957,
+      "sha256": "28a2ea2997c0985311bfb5002cba72c6e4a2d93b083ff785d43b6cb58dba5b85",
+      "paths": [
+        "/documents/Classical_InfoTheory_Mele.pdf",
+        "/documents/classical_infotheory_mele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/Clifford_Commutant_Talk.pdf",
+      "asset": "Clifford_Commutant_Talk.pdf",
+      "size": 4106888,
+      "sha256": "3f02849c69ad95906f5f9a2bdb4cb1b8bcf8de7ad77cc765e6e76bba859aca92",
+      "paths": [
+        "/documents/Clifford_Commutant_Talk.pdf",
+        "/documents/clifford_commutant_talk.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/DPG_AvodingBP.pdf",
+      "asset": "DPG_AvodingBP.pdf",
+      "size": 1934473,
+      "sha256": "2d6faff1b2fa57c532adbbe5a52f2789a16863ee0acc0ed575b80ad818b82def",
+      "paths": [
+        "/documents/DPG_AvodingBP.pdf",
+        "/documents/dpg_avodingbp.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/DPG_Symmetry.pdf",
+      "asset": "DPG_Symmetry.pdf",
+      "size": 2800218,
+      "sha256": "bd2212140fdb9c6a33515710f40c9e305cb521b89d263b54f6abb9cdcf8e5a03",
+      "paths": [
+        "/documents/DPG_Symmetry.pdf",
+        "/documents/dpg_symmetry.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/EPFL_bosons_fermions_lecture.pdf",
+      "asset": "EPFL_bosons_fermions_lecture.pdf",
+      "size": 419065,
+      "sha256": "e54b2e904d538d5f1425e5779fac936f31b5d6bae35dc454a1d29e2d4a067ab1",
+      "paths": [
+        "/documents/EPFL_bosons_fermions_lecture.pdf",
+        "/documents/epfl_bosons_fermions_lecture.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/EPFL_lecture.pdf",
+      "asset": "EPFL_lecture.pdf",
+      "size": 510764,
+      "sha256": "f52b91da2ed1c86205bdcd6c3238e76cd703b715c09157873e5b9dbbf70e894c",
+      "paths": [
+        "/documents/EPFL_lecture.pdf",
+        "/documents/epfl_lecture.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/Effectofnoiseontypicalcircuits.pdf",
+      "asset": "Effectofnoiseontypicalcircuits.pdf",
+      "size": 5714916,
+      "sha256": "29b6da6d163ee99ae14a57680eb26c35cd0df1c80dcddc68f82d3ce54a6c9f9c",
+      "paths": [
+        "/documents/Effectofnoiseontypicalcircuits.pdf",
+        "/documents/effectofnoiseontypicalcircuits.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/LearningFermions.pdf",
+      "asset": "LearningFermions.pdf",
+      "size": 4304594,
+      "sha256": "c3cf7009d2f65aefb556fc5fae2896135da5541a7744e47923fd752518f76ed5",
+      "paths": [
+        "/documents/LearningFermions.pdf",
+        "/documents/learningfermions.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/POVM.pdf",
+      "asset": "POVM.pdf",
+      "size": 2621179,
+      "sha256": "0113634654bf375e5f48ec48ae944f3a7e5153b2be329ca092354dd2c05f573c",
+      "paths": [
+        "/documents/POVM.pdf",
+        "/documents/povm.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/QFTexercises_AntonioMele.pdf",
+      "asset": "QFTexercises_AntonioMele.pdf",
+      "size": 974884,
+      "sha256": "6b6288f9984e6961d4339136ee189081c484b9444acba76355e43eb12e3058ef",
+      "paths": [
+        "/documents/QFTexercises_AntonioMele.pdf",
+        "/documents/qftexercises_antoniomele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/QMATH_Basics_of_Representation_Theory_Mele.pdf",
+      "asset": "QMATH_Basics_of_Representation_Theory_Mele.pdf",
+      "size": 708865,
+      "sha256": "e619b5899762932164ba48b4e312c59960567cab14d6098e0bf828e695fb6735",
+      "paths": [
+        "/documents/QMATH_Basics_of_Representation_Theory_Mele.pdf",
+        "/documents/qmath_basics_of_representation_theory_mele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/QMS1_AntonioAnnaMele.pdf",
+      "asset": "QMS1_AntonioAnnaMele.pdf",
+      "size": 510742,
+      "sha256": "6f781e7fb428643264776341717244e2c9fd740b51d494df1fff0a2bbbf5fc96",
+      "paths": [
+        "/documents/QMS1_AntonioAnnaMele.pdf",
+        "/documents/qms1_antonioannamele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/QTML_Mele_AntonioAnna.pdf",
+      "asset": "QTML_Mele_AntonioAnna.pdf",
+      "size": 1954210,
+      "sha256": "4fa4398343e5bfc79432b84e8277f4bad60c1739918cefd373bf9ad7fc2b4d87",
+      "paths": [
+        "/documents/QTML_Mele_AntonioAnna.pdf",
+        "/documents/qtml_mele_antonioanna.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/Qchannel.pdf",
+      "asset": "Qchannel.pdf",
+      "size": 2457308,
+      "sha256": "1d9a0772aa4129d0dd0871773ee65dc4b3156a06ae446fb70bc0251d19dd920f",
+      "paths": [
+        "/documents/Qchannel.pdf",
+        "/documents/qchannel.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/QuantumComputingBasics_Mele.pdf",
+      "asset": "QuantumComputingBasics_Mele.pdf",
+      "size": 2080882,
+      "sha256": "13e854877e673f9382a74ab3157e721251b6954a77e044d93e702a5a3750c72e",
+      "paths": [
+        "/documents/QuantumComputingBasics_Mele.pdf",
+        "/documents/quantumcomputingbasics_mele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/QuantumEntropies_Mele.pdf",
+      "asset": "QuantumEntropies_Mele.pdf",
+      "size": 5276542,
+      "sha256": "43c869befe16822fb77f64ce6daac4d1162c543d9bd6c49367e36d70c9f0b06d",
+      "paths": [
+        "/documents/QuantumEntropies_Mele.pdf",
+        "/documents/quantumentropies_mele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/SimpleProofKrausSchmidt.pdf",
+      "asset": "SimpleProofKrausSchmidt.pdf",
+      "size": 1355349,
+      "sha256": "2e5243f3a49f1ac8acfe564bec11f64100ea3c5f1309da46db44ed1e34fa8255",
+      "paths": [
+        "/documents/SimpleProofKrausSchmidt.pdf",
+        "/documents/simpleproofkrausschmidt.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/Slides_ChannelLearning.pdf",
+      "asset": "Slides_ChannelLearning.pdf",
+      "size": 7290698,
+      "sha256": "1494bef7199a267fa070e73cc1eccdb665e75ecd652c6692ca0bf1323ca061bd",
+      "paths": [
+        "/documents/Slides_ChannelLearning.pdf",
+        "/documents/slides_channellearning.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/Solutions_problem00_Mele.pdf",
+      "asset": "Solutions_problem00_Mele.pdf",
+      "size": 6017240,
+      "sha256": "62f5906c06124f6188dcc226eed4c10ffb77bfe714928e92c55d7b3fd8d4fa44",
+      "paths": [
+        "/documents/Solutions_problem00_Mele.pdf",
+        "/documents/solutions_problem00_mele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/Solutions_problem01_Mele.pdf",
+      "asset": "Solutions_problem01_Mele.pdf",
+      "size": 5196843,
+      "sha256": "e50487894b9ff7c386dd7b30bcaa880216718991eb172f193f68c325656c2a23",
+      "paths": [
+        "/documents/Solutions_problem01_Mele.pdf",
+        "/documents/solutions_problem01_mele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/Solutions_problem02_Mele.pdf",
+      "asset": "Solutions_problem02_Mele.pdf",
+      "size": 6474819,
+      "sha256": "40226456b1df258ca19326eab42ea2c177cfe4357b8bae6efa71a8bd7e0612d6",
+      "paths": [
+        "/documents/Solutions_problem02_Mele.pdf",
+        "/documents/solutions_problem02_mele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/Solutions_problem03_Mele.pdf",
+      "asset": "Solutions_problem03_Mele.pdf",
+      "size": 4871491,
+      "sha256": "5f20bbcaec114218a891ecd740893c0bc28221ad056033f757d26e171a463a1e",
+      "paths": [
+        "/documents/Solutions_problem03_Mele.pdf",
+        "/documents/solutions_problem03_mele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/Solutions_problem04_Mele.pdf",
+      "asset": "Solutions_problem04_Mele.pdf",
+      "size": 11893361,
+      "sha256": "9c51806e710be949b2f55c9bfa6c360b43aaef4d91a0e83d3dcdcf16b799520d",
+      "paths": [
+        "/documents/Solutions_problem04_Mele.pdf",
+        "/documents/solutions_problem04_mele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/Solutions_problem05_Mele.pdf",
+      "asset": "Solutions_problem05_Mele.pdf",
+      "size": 13234419,
+      "sha256": "7976cb91249b45f49188eb585fdcb0525cbc1093a12b704dab902ea16ea29488",
+      "paths": [
+        "/documents/Solutions_problem05_Mele.pdf",
+        "/documents/solutions_problem05_mele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/Solutions_problem06_Mele.pdf",
+      "asset": "Solutions_problem06_Mele.pdf",
+      "size": 2855279,
+      "sha256": "e04d205a973c3538ab67fa6529c92bafeecb5515333577fe801a3ec191387069",
+      "paths": [
+        "/documents/Solutions_problem06_Mele.pdf",
+        "/documents/solutions_problem06_mele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/Solutions_problem07_Mele.pdf",
+      "asset": "Solutions_problem07_Mele.pdf",
+      "size": 4475576,
+      "sha256": "0eb1d96b074050a05c026b79809569966bee8651466df6dce441fe9c5b3a685f",
+      "paths": [
+        "/documents/Solutions_problem07_Mele.pdf",
+        "/documents/solutions_problem07_mele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/Solutions_problem08_Mele.pdf",
+      "asset": "Solutions_problem08_Mele.pdf",
+      "size": 2842910,
+      "sha256": "54b222aa6077edc857818b89d8fe6133b221287800d80995f99f8537a935b119",
+      "paths": [
+        "/documents/Solutions_problem08_Mele.pdf",
+        "/documents/solutions_problem08_mele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/Solutions_problem09_Mele.pdf",
+      "asset": "Solutions_problem09_Mele.pdf",
+      "size": 7838572,
+      "sha256": "c67b9329a309665d289e4cffadfd5077fb9f159093820a0e60a8577b93f98af0",
+      "paths": [
+        "/documents/Solutions_problem09_Mele.pdf",
+        "/documents/solutions_problem09_mele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/Solutions_problem10_Mele.pdf",
+      "asset": "Solutions_problem10_Mele.pdf",
+      "size": 3161927,
+      "sha256": "8db18ff0144b7b6bc2de45bee0f95eab572ec7fff0e083a409b56588b501c9c2",
+      "paths": [
+        "/documents/Solutions_problem10_Mele.pdf",
+        "/documents/solutions_problem10_mele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/Solutions_problem11_Mele.pdf",
+      "asset": "Solutions_problem11_Mele.pdf",
+      "size": 4488447,
+      "sha256": "9c773d47399ba455f1040681f0bd0f81fc38d6593e69bc2f369f792dda1f89ea",
+      "paths": [
+        "/documents/Solutions_problem11_Mele.pdf",
+        "/documents/solutions_problem11_mele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/Stabilizer_Mele.pdf",
+      "asset": "Stabilizer_Mele.pdf",
+      "size": 3747506,
+      "sha256": "060c614dbd016035841c1fd464bcd72226e1d786d58e8944bf6a1bc62f9931b1",
+      "paths": [
+        "/documents/Stabilizer_Mele.pdf",
+        "/documents/stabilizer_mele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/TQC_talk_Noise.pdf",
+      "asset": "TQC_talk_Noise.pdf",
+      "size": 5188990,
+      "sha256": "3b88f89f7115d43f79d467645032b29c0c3dbfcf50a11a42cafa8da88e87e52d",
+      "paths": [
+        "/documents/TQC_talk_Noise.pdf",
+        "/documents/tqc_talk_noise.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/Tonielli_2026_quantum_learning.pdf",
+      "asset": "Tonielli_2026_quantum_learning.pdf",
+      "size": 6267456,
+      "sha256": "f47a890a73778cb5a2dfd8bc711df4828b2ec2cb685e2d055b4a15132c73069d",
+      "paths": [
+        "/documents/Tonielli_2026_quantum_learning.pdf",
+        "/documents/tonielli_2026_quantum_learning.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/ZnS_Wurtzite_AntonioAnnaMele.pdf",
+      "asset": "ZnS_Wurtzite_AntonioAnnaMele.pdf",
+      "size": 2212681,
+      "sha256": "f72d7b90072cbe42356b3311d7cd38c8429bdd4157754028273f433117da8527",
+      "paths": [
+        "/documents/ZnS_Wurtzite_AntonioAnnaMele.pdf",
+        "/documents/zns_wurtzite_antonioannamele.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/computational_2.pdf",
+      "asset": "computational_2.pdf",
+      "size": 325197,
+      "sha256": "99f477afd931b82b1fad67c8666d4f3dc336984a86f23cf88269cc3c7512c1ee",
+      "paths": [
+        "/documents/computational_2.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/computational_3.pdf",
+      "asset": "computational_3.pdf",
+      "size": 953884,
+      "sha256": "05b3928ad24eb9b8f5adc9741a0f0e6317d30a19244c6c4ebb7ff0c1d6022315",
+      "paths": [
+        "/documents/computational_3.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/computational_4.pdf",
+      "asset": "computational_4.pdf",
+      "size": 816343,
+      "sha256": "da328e4837b4f834bd6078bf2b660d110ae34f0f1e43a901c43a2af30f91784b",
+      "paths": [
+        "/documents/computational_4.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/computational_5.pdf",
+      "asset": "computational_5.pdf",
+      "size": 549840,
+      "sha256": "2b1d1c601fd66865452e64d839b2cdf42b84ddefc3a6d6b85ef541dd8e7bea63",
+      "paths": [
+        "/documents/computational_5.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/computational_I.pdf",
+      "asset": "computational_I.pdf",
+      "size": 1032599,
+      "sha256": "2dbfae65aaeca5ee3c66eff044800b3f44ac817fd01751a10e39d7c8dbf68bc7",
+      "paths": [
+        "/documents/computational_I.pdf",
+        "/documents/computational_i.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/problem00.pdf",
+      "asset": "problem00.pdf",
+      "size": 184824,
+      "sha256": "17cf47301dcc5c0d226b5f6095a32ee31b5105bc745769ea7d381e1d23c934e2",
+      "paths": [
+        "/documents/problem00.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/problem01.pdf",
+      "asset": "problem01.pdf",
+      "size": 165622,
+      "sha256": "e28461cef4d2f4e6a756ff1124413c54d4279c04e20f7b0bc5295294b56b6be5",
+      "paths": [
+        "/documents/problem01.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/problem02.pdf",
+      "asset": "problem02.pdf",
+      "size": 174242,
+      "sha256": "29173917efa74711c538d729178fa11812fa445d1a4d094aeed35e31a4180b38",
+      "paths": [
+        "/documents/problem02.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/problem03.pdf",
+      "asset": "problem03.pdf",
+      "size": 174009,
+      "sha256": "8e4772fd8a13efbe69a9f46bf3a3809b26a6b2c7e671b9ac4c35efa8346e1614",
+      "paths": [
+        "/documents/problem03.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/problem04.pdf",
+      "asset": "problem04.pdf",
+      "size": 169641,
+      "sha256": "23838c9c003ed5ec29b6fe3a5612277e282017c8f59cd4fe868997f9716081d1",
+      "paths": [
+        "/documents/problem04.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/problem05.pdf",
+      "asset": "problem05.pdf",
+      "size": 129383,
+      "sha256": "361bf9846e4a716b7bce73df8733f69bb8927a859963548db9918f3f1b419235",
+      "paths": [
+        "/documents/problem05.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/problem06.pdf",
+      "asset": "problem06.pdf",
+      "size": 98251,
+      "sha256": "7005e64f47e98f940914c3e281ee049ff9ad8ce75f4af4dc63d485deedfe6b36",
+      "paths": [
+        "/documents/problem06.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/problem07.pdf",
+      "asset": "problem07.pdf",
+      "size": 202255,
+      "sha256": "d89669bee28138512abcbe145c2c95819f0177d0031a58f878737f424e5fa498",
+      "paths": [
+        "/documents/problem07.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/problem08.pdf",
+      "asset": "problem08.pdf",
+      "size": 158126,
+      "sha256": "e6cd9aefd2d5ce33942f7e078b99b2192bf0316af4c9cac5232a776b5e72ccd5",
+      "paths": [
+        "/documents/problem08.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/problem09.pdf",
+      "asset": "problem09.pdf",
+      "size": 186777,
+      "sha256": "8a88cb2b4ab6eb8de5248974e5bbf0a22644ae98e1f9b09f564693ba54dd7a2b",
+      "paths": [
+        "/documents/problem09.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/problem10.pdf",
+      "asset": "problem10.pdf",
+      "size": 201451,
+      "sha256": "a6d1494a792bd0269a9174f76724f07c94c7dfd2a68ac3ee45f82f280dc5f847",
+      "paths": [
+        "/documents/problem10.pdf"
+      ]
+    },
+    {
+      "source": "assets/documents/problem11.pdf",
+      "asset": "problem11.pdf",
+      "size": 1025964,
+      "sha256": "077066bd8c78e6b6c3b793a41f06e1913aab7fe58a5d44374a5ee612c0e5602f",
+      "paths": [
+        "/documents/problem11.pdf"
+      ]
+    }
+  ]
+}

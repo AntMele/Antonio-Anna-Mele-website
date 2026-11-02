@@ -13,7 +13,38 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  public_documents:
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: '${{ steps.pages.outputs.page_url }}'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - name: Check public website before changing public documents
+        uses: ./.github/actions/build-hosting
+      - name: Prepare only approved public PDFs for Pages
+        run: python3 scripts/hosting_downloads.py --stage "$RUNNER_TEMP/public-document-pages"
+      - name: Record previous public document checksums
+        run: python3 scripts/hosting_downloads.py --snapshot "$RUNNER_TEMP/previous-public-documents.json"
+      - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+      - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        with:
+          path: '${{ runner.temp }}/public-document-pages'
+          retention-days: 1
+      - uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+        id: pages
+      - name: Verify public PDFs before updating website redirects
+        run: python3 scripts/hosting_downloads.py --remote --previous "$RUNNER_TEMP/previous-public-documents.json"
+
   build_and_deploy:
+    needs: public_documents
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     environment: production-private

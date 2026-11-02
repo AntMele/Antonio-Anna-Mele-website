@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 .firebase/
+firebase-debug*.log
 .DS_Store
 output/
 resources/_gen/

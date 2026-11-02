@@ -13,6 +13,7 @@ from urllib.parse import unquote, urljoin, urlsplit
 
 from build_bandwidth_preview import ROOT, document_sources, inventory
 from private_documents import find_private_documents, redact_private_text
+from hosting_downloads import validate_config
 
 
 PUBLIC_STATEMENT = "documents/Research_Statement_Mele_Public.pdf"
@@ -54,6 +55,8 @@ def local_path(reference, page, files, redirects):
         if path not in redirects:
             break
         path = redirects[path]
+        if urlsplit(path).scheme in ("https", "http"):
+            return None
     else:
         raise ValueError(f"Redirect cycle for {reference}")
     name = path.lstrip("/")
@@ -110,6 +113,7 @@ def verify_site(root, source_root=ROOT, public_only=False, private_manifest=None
     if missing_files:
         raise ValueError(redact_private_text(f"Dropped published URLs (exact case): {missing_files}"))
     config = json.loads((source_root / "firebase.json").read_text())
+    downloads = validate_config(source_root)
     redirects = {r["source"]: r["destination"] for r in config["hosting"].get("redirects", [])
                  if "source" in r and not any(c in r["source"] for c in "*?{}")}
     tqc_redirect = {"source": "/documents/TQC_talk_noise.pdf",
@@ -186,6 +190,7 @@ def verify_site(root, source_root=ROOT, public_only=False, private_manifest=None
     return {
         "built_files": len(files), "published_paths_preserved": len(baseline),
         "pdf_files_checked": pdf_count, "sha256_assets_checked": hashed,
+        "offloaded_public_pdfs": len(downloads["documents"]) if downloads else 0,
         "sri_attributes_checked": sri_count,
         "unlisted_privacy_checks": "public-only build" if public_only else "passed",
         "known_preexisting_missing_references": sorted(current_missing),
