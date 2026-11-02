@@ -62,8 +62,10 @@ def load_downloads(root=ROOT, refresh=False):
     return manifest
 
 
-def destination(manifest, item):
-    return f'{manifest["base_url"]}/documents/{item["asset"]}'
+def destination(manifest, item, base_url=None):
+    # Stable filenames preserve old links; the content version avoids reusing a
+    # browser's cached copy when an approved replacement is deployed.
+    return f'{base_url or manifest["base_url"]}/documents/{item["asset"]}?v={item["sha256"][:16]}'
 
 
 def validate_config(root=ROOT, manifest=None, config=None):
@@ -233,7 +235,7 @@ def check_pdf_response(item, response, read_bytes):
             raise ValueError("Remote PDF checksum mismatch: " + item["asset"])
 
 
-def check_remote(manifest, previous=None, retry_seconds=180, base_url=None):
+def check_remote(manifest, previous=None, retry_seconds=720, base_url=None):
     # A prior manifest only skips unchanged PDF body downloads, never current headers.
     before = {}
     if base_url:
@@ -253,7 +255,7 @@ def check_remote(manifest, previous=None, retry_seconds=180, base_url=None):
                     continue
                 read_bytes = before.get(item["asset"]) != {
                     key: item[key] for key in ("asset", "size", "sha256")}
-                url = (base_url or manifest["base_url"]) + "/documents/" + item["asset"]
+                url = destination(manifest, item, base_url)
                 request = urllib.request.Request(url,
                     method="GET" if read_bytes else "HEAD",
                     headers={"Accept-Encoding": "identity", "Cache-Control": "no-cache"})
@@ -276,13 +278,13 @@ def main():
     parser.add_argument("--snapshot", type=Path, help="Save pre-deployment remote public metadata; 404 saves null.")
     parser.add_argument("--previous", type=Path, help="Metadata snapshot used to verify only changed PDF bodies.")
     parser.add_argument("--refresh", action="store_true", help="Refresh allowlisted PDF hashes and matching routes; never discover files.")
-    parser.add_argument("--retry-seconds", type=int, default=180)
+    parser.add_argument("--retry-seconds", type=int, default=720)
     parser.add_argument("--base-url", help="HTTP loopback origin for local remote-verification tests only.")
     args = parser.parse_args()
     if args.base_url and not args.remote:
         parser.error("--base-url is only valid with --remote")
-    if not 0 <= args.retry_seconds <= 300:
-        parser.error("--retry-seconds must be between 0 and 300")
+    if not 0 <= args.retry_seconds <= 900:
+        parser.error("--retry-seconds must be between 0 and 900")
     if args.refresh:
         refresh_downloads()
     manifest = validate_config()

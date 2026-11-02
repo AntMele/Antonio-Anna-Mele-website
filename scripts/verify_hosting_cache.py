@@ -82,6 +82,7 @@ try:
         with request(path) as response:
             assert response.status == rule["type"], (path, response.status)
             assert response.headers.get("Location") == rule["destination"], (path, "Wrong redirect destination")
+            assert response.headers.get("Cache-Control") == fresh, (path, "Redirect must revalidate")
             redirect_results.append({"path": path, "status": response.status, "destination": rule["destination"]})
     fresh_paths = [path for path in fresh_paths if path not in redirects]
     for path in fresh_paths + private_paths + hashed_paths:

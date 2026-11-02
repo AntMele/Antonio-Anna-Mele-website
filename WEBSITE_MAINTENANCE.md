@@ -26,6 +26,12 @@ the diff. For a new document, add its source and public URL aliases to the
 allowlist, refresh, and link to its website URL. Avoid direct Pages links in
 website content so future hosting changes do not require editing every page.
 
+Redirect destinations include a content-derived version marker. Replacing a PDF
+changes that marker, giving browsers a fresh cache entry while preserving the
+website link and physical document filename. GitHub's edge cache can still take
+time to refresh; live verification waits up to twelve minutes before blocking
+Firebase publication if the expected content is unavailable.
+
 The pipeline validates the public website first, stages **only** allowlisted
 documents into a fresh directory, publishes that directory to Pages, and checks
 the public PDFs before deploying Firebase. It checks PDF response headers and

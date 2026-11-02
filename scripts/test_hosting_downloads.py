@@ -101,6 +101,30 @@ class PublicDownloadTests(unittest.TestCase):
             refresh_downloads(self.root)
         self.assertEqual((self.root / "firebase.json").read_bytes(), before)
 
+    def test_replacement_refresh_versions_both_aliases_without_renaming_file(self):
+        self.check()
+        previous_url = self.url
+        self.pdf.write_bytes(b"%PDF-1.4\nreviewed replacement\n")
+        refreshed = refresh_downloads(self.root)
+        updated = refreshed["documents"][0]
+        expected = BASE_URL + "/documents/Lecture.pdf?v=" + hashlib.sha256(self.pdf.read_bytes()).hexdigest()[:16]
+        rules = json.loads((self.root / "firebase.json").read_text())["hosting"]["redirects"]
+        self.assertNotEqual(expected, previous_url)
+        self.assertEqual({rule["destination"] for rule in rules}, {expected})
+        self.assertEqual({rule["source"] for rule in rules}, set(self.item["paths"]))
+        self.assertEqual(updated["asset"], "Lecture.pdf")
+        self.assertEqual(updated["source"], "assets/documents/Lecture.pdf")
+        self.assertTrue(self.pdf.is_file())
+        validate_config(self.root)
+
+    def test_refresh_migrates_existing_unversioned_pages_destinations(self):
+        for rule in self.config["hosting"]["redirects"]:
+            rule["destination"] = BASE_URL + "/documents/Lecture.pdf"
+        (self.root / "hosting-downloads.json").write_text(json.dumps(self.manifest))
+        (self.root / "firebase.json").write_text(json.dumps(self.config))
+        refresh_downloads(self.root)
+        validate_config(self.root)
+
     def test_existing_case_redirect_chain_is_preserved(self):
         self.config["hosting"]["redirects"][1].update(destination="/documents/Lecture.pdf", type=301)
         self.check()
@@ -176,7 +200,16 @@ class PublicDownloadTests(unittest.TestCase):
                     "hosting_downloads.urllib.request.urlopen", return_value=Response(self.data)) as request:
                 result = check_remote(self.manifest, previous, retry_seconds=0)
                 self.assertEqual(request.call_args.args[0].method, method)
+                self.assertEqual(request.call_args.args[0].full_url, self.url)
                 self.assertEqual(result["verification_download_bytes"], downloaded)
+
+    def test_remote_loopback_check_uses_same_document_version_as_production(self):
+        expected = public_manifest(self.manifest)
+        with patch("hosting_downloads.fetch_manifest", return_value=expected), patch(
+                "hosting_downloads.urllib.request.urlopen", return_value=Response(self.data)) as request:
+            check_remote(self.manifest, retry_seconds=0, base_url="http://127.0.0.1:1342")
+            self.assertEqual(request.call_args.args[0].full_url,
+                             "http://127.0.0.1:1342/documents/Lecture.pdf?v=" + self.item["sha256"][:16])
 
     def test_invalid_public_metadata_rejected(self):
         for field, value in (("asset", "CV_fixture.pdf"), ("sha256", "wrong"), ("size", -1)):
