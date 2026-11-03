@@ -110,8 +110,8 @@ The main [course page](https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-ei
 
 For complementary treatments, I recommend the following references.
 
-- Michael M. Wolf — [*Quantum Channels & Operations: A Guided Tour*](https://www-m5.ma.tum.de/foswiki/pub/M5/Allgemeines/MichaelWolf/QChannelLecture.pdf)
-- John Preskill — [*Quantum Computation* lecture notes](http://theory.caltech.edu/~preskill/ph219/index.html#lecture)
+- Michael M. Wolf — [*Quantum Channels & Operations: A Guided Tour*](https://mediatum.ub.tum.de/doc/1701036/1701036.pdf)
+- John Preskill — [*Quantum Computation* lecture notes](https://preskill.caltech.edu/ph219/#lecture)
 - Joseph M. Renes — [*Quantum Information Theory* lecture notes](https://edu.itp.phys.ethz.ch/hs15/QIT/renes_lecture_notes14.pdf)
 - Ronald de Wolf — [*Quantum Computing: Lecture Notes*](https://homepages.cwi.nl/~rdewolf/qcnotes.pdf)
 - Andrew M. Childs — [*Lecture Notes on Quantum Algorithms*](https://www.cs.umd.edu/~amchilds/qa/qa.pdf)

@@ -94,6 +94,11 @@
     ],
     "redirects": [
       {
+        "source": "/images/PhotoSlack.jpg",
+        "destination": "/images/PhotoSlack3.jpg",
+        "type": 301
+      },
+      {
         "source": "/documents/TQC_talk_noise.pdf",
         "destination": "/documents/TQC_talk_Noise.pdf",
         "type": 301

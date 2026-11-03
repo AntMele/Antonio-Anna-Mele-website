@@ -30,7 +30,7 @@
 #### February 2026
 - I gave invited talks on [***Optimal learning of quantum channels in diamond distance***](https://arxiv.org/abs/2512.10214) at the **MIT Quantum Seminar** and the [**Harvard Quantum Seminar**](https://harvard-quantum-tcs.github.io/seminar/).
 #### January 2026
-- I served on the Programme Committee of [**QCTiP 2026**](https://qctipconf.github.io/submission.html).
+- I served on the Programme Committee of [**QCTiP 2026**](https://qctipconf.github.io/qctip_2026/submission).
 - Our works on [***efficient learning of structured bosonic and fermionic unitaries***](https://arxiv.org/abs/2510.05531) and [***the Clifford commutant***](https://arxiv.org/abs/2504.12263) were presented as talks at [**QIP 2026**](https://qipconference.org/2026/accepted-papers/).
 #### December 2025
 - Our new work [***Optimal learning of quantum channels in diamond distance***](https://arxiv.org/abs/2512.10214), with Lennart Bittel, became available on arXiv.

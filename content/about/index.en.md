@@ -30,7 +30,7 @@ For a full list of publications, see my [Google Scholar profile](https://scholar
 - **Google Quantum AI**, Summer Researcher, Los Angeles, CA, USA, 2026. Mentor: [Jarrod McClean](https://scholar.google.com/citations?user=yVy2ZIwAAAAJ&hl=en). 
 - **Los Alamos National Laboratory**, Summer Researcher, NM, USA, 2024. Mentor: [Marco Cerezo](https://scholar.google.com/citations?user=dSDasm8AAAAJ&hl=en). 
 - **MSc in Physics**, joint programme of the [University of Trento](https://www.unitn.it/en) and [SISSA (International School for Advanced Studies)](https://www.sissa.it/), Italy, 2019–2021. Graduated 110/110 *cum laude*. 
-- **BSc in Physics**, [University of Pisa](https://www.unipi.it/index.php/english), Italy, 2016–2019. Graduated 110/110 *cum laude*.
+- **BSc in Physics**, [University of Pisa](https://www.unipi.it/en/), Italy, 2016–2019. Graduated 110/110 *cum laude*.
 
 ---
 
