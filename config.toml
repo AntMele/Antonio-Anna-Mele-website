@@ -152,7 +152,7 @@ theme = "LoveIt"
     # Android browser theme color
     themeColor = "#ffffff"
     # Safari mask icon color
-    iconColor = "#5bbad5"
+    iconColor = "#9266CC"
     # Windows v8-10 tile color
     tileColor = "#da532c"
 

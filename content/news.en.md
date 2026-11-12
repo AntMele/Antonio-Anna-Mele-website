@@ -1,5 +1,8 @@
 ## Recent news
 
+#### November 2026
+- Our work [***Optimal learning of quantum channels in diamond distance***](https://www.nature.com/articles/s41567-026-03499-7), with Lennart Bittel, was published in ***Nature Physics*** on 12 November 2026.
+
 #### October 2026
 - I was selected by **Anthropic** for research support through its [**AI for Science Program**](https://www.anthropic.com/news/ai-for-science-program).
 - I received the [**Federico Tonielli Award**](https://isue.it/federico-tonielli-award-isue/) and gave a talk on ***Learning and computation in quantum systems*** at the award ceremony at the **Scuola Normale Superiore in Pisa** on 16 October 2026. [Slides](/documents/Tonielli_2026_quantum_learning.pdf)

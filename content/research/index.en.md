@@ -13,7 +13,7 @@ For a quick overview of my research, see my [**Research Statement (PDF)**](/docu
 # Publications
 For a complete and continuously updated list, see my [Google Scholar profile](https://scholar.google.com/citations?user=IgnTVy4AAAAJ&hl=en).
 ## Selected publications
-- **A.A. Mele**, L. Bittel. **[Optimal learning of quantum channels in diamond distance](https://arxiv.org/abs/2512.10214)**. *Nature Physics*, accepted for publication (2026).
+- **A.A. Mele**, L. Bittel. **[Optimal learning of quantum channels in diamond distance](https://www.nature.com/articles/s41567-026-03499-7)**. *Nature Physics* (2026). [arXiv](https://arxiv.org/abs/2512.10214)
 - **A.A. Mele**, A. Angrisani, S. Ghosh, S. Khatri, J. Eisert, D.S. França, Y. Quek. **[Noise-induced shallow circuits and the absence of barren plateaus](https://www.nature.com/articles/s41567-026-03245-z)**. *Nature Physics* **22**, 751–756 (2026). [arXiv](https://arxiv.org/abs/2403.13927)
 - F.A. Mele, **A.A. Mele**, L. Bittel, J. Eisert, V. Giovannetti, L. Lami, L. Leone, S.F.E. Oliviero. **[Learning quantum states of continuous-variable systems](https://www.nature.com/articles/s41567-025-03086-2)**. *Nature Physics* **21**, 2002–2008 (2025). [arXiv](https://arxiv.org/abs/2405.01431)
 - **A.A. Mele**<sup>&#42;</sup>, F.A. Mele<sup>&#42;</sup>, J.R. McClean, T.E. O'Brien. **[Towards verifiable quantum advantage with random circuits: Observables that survive concentration](https://arxiv.org/abs/2609.37890)**. arXiv:2609.37890 (2026). *(<sup>&#42;</sup> Equal contributors.)*
