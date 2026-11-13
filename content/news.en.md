@@ -1,7 +1,7 @@
 ## Recent news
 
 #### November 2026
-- Our work [***Optimal learning of quantum channels in diamond distance***](https://www.nature.com/articles/s41567-026-03499-7), with Lennart Bittel, was published in ***Nature Physics*** on 12 November 2026.
+- Our work [***Optimal learning of quantum channels in diamond distance***](https://www.nature.com/articles/s41567-026-03499-7), with Lennart Bittel, was published in ***Nature Physics***.
 
 #### October 2026
 - I was selected by **Anthropic** for research support through its [**AI for Science Program**](https://www.anthropic.com/news/ai-for-science-program).
