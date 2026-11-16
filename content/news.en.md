@@ -1,6 +1,7 @@
 ## Recent news
 
 #### November 2026
+- I joined the [**Unitary Foundation**](https://unitary.foundation/)’s (invitation-only) beautiful fall retreat on ***AI in Quantum Information Processing*** in upstate New York (November 13–15), where we brainstormed how to use AI to accelerate quantum computing research!
 - Our work [***Optimal learning of quantum channels in diamond distance***](https://www.nature.com/articles/s41567-026-03499-7), with Lennart Bittel, was published in ***Nature Physics***.
 
 #### October 2026
