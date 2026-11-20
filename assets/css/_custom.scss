@@ -46,6 +46,14 @@
     line-height: 1.5;
   }
 
+  .research-statement-date {
+    display: block;
+    margin-top: 0.35rem;
+    color: #595959;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+
   .research-statement-arrow {
     flex-shrink: 0;
     color: $single-link-color;
@@ -76,7 +84,8 @@
       border-color: rgba(240, 165, 156, 0.35);
     }
 
-    .research-statement-description {
+    .research-statement-description,
+    .research-statement-date {
       color: #b8b8c0;
     }
   }
