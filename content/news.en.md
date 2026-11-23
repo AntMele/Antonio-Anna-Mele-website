@@ -3,7 +3,7 @@
 #### November 2026
 - Our new work [***A provably efficient classical algorithm for simulating OTOC⁽¹⁾ in 1D***](https://arxiv.org/abs/2611.24640), with Laura Lewis, Ronald de Wolf, Jarrod R. McClean, and Amira Abbas, is now available on arXiv. ⚡
 - I joined the [**Unitary Foundation**](https://unitary.foundation/)’s (invitation-only) beautiful fall retreat on ***AI in Quantum Information Processing*** in upstate New York (November 13–15), where we brainstormed how to use AI to accelerate quantum computing research!
-- Our work [***Optimal learning of quantum channels in diamond distance***](https://www.nature.com/articles/s41567-026-03499-7), with Lennart Bittel, was published in ***Nature Physics***.
+- Our work [***Optimal learning of quantum channels in diamond distance***](https://www.nature.com/articles/s41567-026-03499-7), with Lennart Bittel, was published in ***Nature Physics***. ⚛️
 
 #### October 2026
 - I was selected by **Anthropic** for research support through its [**AI for Science Program**](https://www.anthropic.com/news/ai-for-science-program).
@@ -13,7 +13,7 @@
 - Our new work [***Testing quantum Gaussianity with constant sample complexity***](https://arxiv.org/abs/2609.40270), with Mahtab Yaghubi Rad, Ricard Puig, Saksham Hassanandani, Luke Coffman, Jens Eisert, and Carlos Bravo-Prieto, is now available on arXiv.
 - Our new work [***Towards verifiable quantum advantage with random circuits: Observables that survive concentration***](https://arxiv.org/abs/2609.37890), with Francesco Anna Mele, Jarrod McClean, and Thomas O’Brien, is now available on arXiv. This work was carried out during my summer research stay at **Google Quantum AI**.
 - Our new work [***When are bosonic Gaussian states classical to learn?***](https://arxiv.org/abs/2609.26705), with Senrui Chen, Francesco Anna Mele, and John Preskill, is now available on arXiv.
-- Our work [***Optimal learning of quantum channels in diamond distance***](https://arxiv.org/abs/2512.10214), with Lennart Bittel, has now been **accepted for publication in *Nature Physics***.
+- Our work [***Optimal learning of quantum channels in diamond distance***](https://arxiv.org/abs/2512.10214), with Lennart Bittel, has now been **accepted for publication in *Nature Physics***. ⚛️
 - A collaborative quantum algorithms project I am part of was selected for funding through the **Simons Institute–Jane Street Circles Program**, supporting research visits at the Simons Institute and Jane Street over the next two years.
 #### August 2026
 - Our new work [***Strong unitary designs in optimal depth and space***](https://arxiv.org/abs/2608.13491), with Teodor Parella-Dilmé, Júlia Barberà-Rodríguez, and Salvatore F. E. Oliviero, is now available on arXiv.
@@ -28,7 +28,7 @@
 #### May 2026
 - I gave an invited tutorial on ***Quantum Learning Theory for Bosonic and Fermionic Systems*** at the [**EPFL Bernoulli Center**](https://bernoulli.epfl.ch/programs/intersection-of-quantum-learning-theory-quantum-sensing-and-quantum-verification/), as part of the program ***Intersection of Quantum Learning Theory, Quantum Sensing, and Quantum Verification***. [Video](https://mediaspace.epfl.ch/media/Tutorial%2Bon%2BLearning%2Bin%2BBosonic%2Band%2BFermionic%2Bsystems%2B-%2BAntonio%2BMele/0_pqdhdnc5) · [Notes](/documents/EPFL_lecture.pdf)
 #### April 2026
-- Our work [***Noise-induced shallow circuits and the absence of barren plateaus***](https://www.nature.com/articles/s41567-026-03245-z), with Armando Angrisani, Soumik Ghosh, Sumeet Khatri, Jens Eisert, Daniel Stilck França, and Yihui Quek, was published in ***Nature Physics***!
+- Our work [***Noise-induced shallow circuits and the absence of barren plateaus***](https://www.nature.com/articles/s41567-026-03245-z), with Armando Angrisani, Soumik Ghosh, Sumeet Khatri, Jens Eisert, Daniel Stilck França, and Yihui Quek, was published in ***Nature Physics***! ⚛️
 - Our work [***Simulating quantum circuits with arbitrary local noise using Pauli propagation***](https://journals.aps.org/prxquantum/abstract/10.1103/fb28-wlv2), with Armando Angrisani, Manuel S. Rudolph, Marco Cerezo, and Zoë Holmes, was published in ***PRX Quantum***.
 #### March 2026
 - I gave an invited talk on [***Optimal learning of quantum channels in diamond distance***](https://arxiv.org/abs/2512.10214) at the [**Caltech IQIM Seminar**](https://www.caltech.edu/campus-life-events/calendar/iqim-postdoctoral-and-graduate-student-seminar-90412).
@@ -40,7 +40,7 @@
 #### December 2025
 - Our new work [***Optimal learning of quantum channels in diamond distance***](https://arxiv.org/abs/2512.10214), with Lennart Bittel, became available on arXiv.
 #### November 2025
-- Our work [***Learning quantum states of continuous-variable systems***](https://www.nature.com/articles/s41567-025-03086-2), with Francesco Anna Mele, Lennart Bittel, Jens Eisert, Vittorio Giovannetti, Ludovico Lami, Lorenzo Leone, and Salvatore F. E. Oliviero, was published in ***Nature Physics***!
+- Our work [***Learning quantum states of continuous-variable systems***](https://www.nature.com/articles/s41567-025-03086-2), with Francesco Anna Mele, Lennart Bittel, Jens Eisert, Vittorio Giovannetti, Ludovico Lami, Lorenzo Leone, and Salvatore F. E. Oliviero, was published in ***Nature Physics***! ⚛️
 - Our works on [***efficient learning of bosonic Gaussian unitaries***](https://arxiv.org/abs/2510.05531) and [***the Clifford commutant***](https://arxiv.org/abs/2504.12263) were accepted for presentation at [**QIP 2026**](https://qipconference.org/2026/accepted-papers/).
 #### October 2025
 - I was awarded a [**2025 Google PhD Fellowship in Quantum Computing**](https://research.google/programs-and-events/phd-fellowship/recipients/).
