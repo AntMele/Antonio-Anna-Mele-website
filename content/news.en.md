@@ -1,6 +1,7 @@
 ## Recent news
 
 #### November 2026
+- Our work [***Quantum memory advantage for quantum process tomography***](https://arxiv.org/abs/2607.13476), with Carlos Bravo-Prieto and Weiyuan Gong, has been **accepted for publication in *Nature Communications***.
 - Our new work [***A provably efficient classical algorithm for simulating OTOC⁽¹⁾ in 1D***](https://arxiv.org/abs/2611.24640), with Laura Lewis, Ronald de Wolf, Jarrod R. McClean, and Amira Abbas, is now available on arXiv. ⚡
 - I joined the [**Unitary Foundation**](https://unitary.foundation/)’s (invitation-only) beautiful fall retreat on ***AI in Quantum Information Processing*** in upstate New York (November 13–15), where we brainstormed how to use AI to accelerate quantum computing research!
 - Our work [***Optimal learning of quantum channels in diamond distance***](https://www.nature.com/articles/s41567-026-03499-7), with Lennart Bittel, was published in ***Nature Physics***. ⚛️
