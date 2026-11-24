@@ -2,13 +2,14 @@
 
 #### November 2026
 - Our work [***Quantum memory advantage for quantum process tomography***](https://arxiv.org/abs/2607.13476), with Carlos Bravo-Prieto and Weiyuan Gong, has been **accepted for publication in *Nature Communications***.
-- Our new work [***A provably efficient classical algorithm for simulating OTOC⁽¹⁾ in 1D***](https://arxiv.org/abs/2611.24640), with Laura Lewis, Ronald de Wolf, Jarrod R. McClean, and Amira Abbas, is now available on arXiv. ⚡
+- Our new work [***A provably efficient classical algorithm for simulating $\mathrm{OTOC}^{(1)}$ in 1D***](https://arxiv.org/abs/2611.24640), with Laura Lewis, Ronald de Wolf, Jarrod R. McClean, and Amira Abbas, is now available on arXiv. ⚡
 - I joined the [**Unitary Foundation**](https://unitary.foundation/)’s (invitation-only) beautiful fall retreat on ***AI in Quantum Information Processing*** in upstate New York (November 13–15), where we brainstormed how to use AI to accelerate quantum computing research!
 - Our work [***Optimal learning of quantum channels in diamond distance***](https://www.nature.com/articles/s41567-026-03499-7), with Lennart Bittel, was published in ***Nature Physics***. ⚛️
 
 #### October 2026
-- I was selected by **Anthropic** for research support through its [**AI for Science Program**](https://www.anthropic.com/news/ai-for-science-program).
+- I was invited to speak at the [**Quantum Innovators Theory Workshop 2026**](https://uwaterloo.ca/institute-for-quantum-computing/events/quantum-innovators-2026) at the Institute for Quantum Computing, University of Waterloo. IQC describes it as a five-day workshop it has offered since 2012, “bringing the most promising postdoctoral fellows in quantum information science and technology together” ([IQC program](https://uwaterloo.ca/institute-for-quantum-computing/events/quantum-innovators-2026)).
 - I received the [**Federico Tonielli Award**](https://isue.it/federico-tonielli-award-isue/) and gave a talk on ***Learning and computation in quantum systems*** at the award ceremony at the **Scuola Normale Superiore in Pisa** on 16 October 2026. [Slides](/documents/Tonielli_2026_quantum_learning.pdf)
+- I was selected by **Anthropic** for research support through its [**AI for Science Program**](https://www.anthropic.com/news/ai-for-science-program).
 - Our new work [***Adaptivity is all you need: Optimal stabilizer learning using just single-copy measurements***](https://arxiv.org/abs/2610.02031), with Lennart Bittel, Jens Eisert, Weiyuan Gong, and Louis Schatzki, is now available on arXiv.
 #### September 2026
 - Our new work [***Testing quantum Gaussianity with constant sample complexity***](https://arxiv.org/abs/2609.40270), with Mahtab Yaghubi Rad, Ricard Puig, Saksham Hassanandani, Luke Coffman, Jens Eisert, and Carlos Bravo-Prieto, is now available on arXiv.
@@ -18,7 +19,6 @@
 - A collaborative quantum algorithms project I am part of was selected for funding through the **Simons Institute–Jane Street Circles Program**, supporting research visits at the Simons Institute and Jane Street over the next two years.
 #### August 2026
 - Our new work [***Strong unitary designs in optimal depth and space***](https://arxiv.org/abs/2608.13491), with Teodor Parella-Dilmé, Júlia Barberà-Rodríguez, and Salvatore F. E. Oliviero, is now available on arXiv.
-- I was invited to speak at the [**Quantum Innovators Theory Workshop 2026**](https://uwaterloo.ca/institute-for-quantum-computing/events/quantum-innovators-2026) at the Institute for Quantum Computing, University of Waterloo — a workshop bringing together early-career researchers making an impact on quantum information research.
 - I was invited to serve on the Program Committee of [**QIP 2027**](https://qipconference.org/2027/).
 #### July 2026
 - Our new work [***Quantum memory advantage for quantum process tomography***](https://arxiv.org/abs/2607.13476), with Carlos Bravo-Prieto and Weiyuan Gong, is now available on arXiv.
