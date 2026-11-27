@@ -1,5 +1,8 @@
 ## Recent news
 
+#### December 2026
+- I was invited to speak at **Harvard** at [**Quantum Fest**](https://quantum.harvard.edu/event/quantum-fest-2026?occ_id=0) (December 2–3), where I’ll present ***Learning and Computing with Quantum Systems***.
+
 #### November 2026
 - Our work [***Quantum memory advantage for quantum process tomography***](https://arxiv.org/abs/2607.13476), with Carlos Bravo-Prieto and Weiyuan Gong, has been **accepted for publication in *Nature Communications***.
 - Our new work [***A provably efficient classical algorithm for simulating $\mathrm{OTOC}^{(1)}$ in 1D***](https://arxiv.org/abs/2611.24640), with Laura Lewis, Ronald de Wolf, Jarrod R. McClean, and Amira Abbas, is now available on arXiv. ⚡
