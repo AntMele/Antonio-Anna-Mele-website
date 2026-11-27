@@ -1,7 +1,7 @@
 ## Recent news
 
 #### December 2026
-- I was invited to speak at **Harvard** at [**Quantum Fest**](https://quantum.harvard.edu/event/quantum-fest-2026?occ_id=0) (December 2–3), where I’ll present ***Learning and Computing with Quantum Systems***.
+- I was invited to speak at **Harvard** at [**Quantum Fest**](https://quantum.harvard.edu/event/quantum-fest-2026?occ_id=0), hosted by the **Harvard Quantum Initiative** (December 2–3), where I’ll present ***Learning and Computing with Quantum Systems***.
 
 #### November 2026
 - Our work [***Quantum memory advantage for quantum process tomography***](https://arxiv.org/abs/2607.13476), with Carlos Bravo-Prieto and Weiyuan Gong, has been **accepted for publication in *Nature Communications***.
